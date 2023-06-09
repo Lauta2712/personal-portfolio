@@ -1,42 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
 
-.about{
-    font-family: 'Libre Baskerville', serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100vw;
-    height: 100vh;
-    background-color: #00173B;
+.about {
+  font-family: 'Libre Baskerville', serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #00173B;
 }
 
-.english{
-    background-color: #040F1A;
-    color: white;
-    text-align: justify;
-    padding: 2%;
-    border: 1px solid #0B2C4D;
-    box-shadow: 0 0 5px #0B2C4D;
-    border-radius: 10px;
-    margin: 2%;
+.english,
+.spanish {
+  background-color: #040F1A;
+  color: white;
+  text-align: justify;
+  padding: 2%;
+  border: 1px solid #0B2C4D;
+  box-shadow: 0 0 5px #0B2C4D;
+  border-radius: 10px;
+  margin: 2%;
 }
 
-.english h2{
-    margin-left: 45%;
+.english h2,
+.spanish h2 {
+  margin-left: 45%;
 }
 
-.spanish{
-    background-color: #040F1A;
-    color: white;
-    text-align: justify;
-    padding: 2%;
-    border: 1px solid #0B2C4D;
-    box-shadow: 0 0 10px #0B2C4D;
-    border-radius: 10px;
-    margin: 2%;
+/* Media Queries */
+@media (max-width: 600px) {
 
-}
+    .about{
+        margin-top: 14rem;
+    }
 
-.spanish h2{
-    margin-left: 40%;
+  .english h2,
+  .spanish h2 {
+    margin-left: 10px;
+    text-align: center;
+  }
 }

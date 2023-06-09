@@ -9,7 +9,7 @@
     margin-bottom: 5%;
     border: 1px solid #212121;
     border-radius: 10px;
-    box-shadow: 0 4px 8px #F53500;
+    box-shadow: 0 4px 8px #f53500;
 }
 
 .logo {
@@ -33,4 +33,23 @@
 
 .link:hover {
     background-color: #404040;
+}
+
+/* Media Query */
+@media (max-width: 600px) {
+    .navbar {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding: 1rem;
+    }
+
+    .links {
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+
+    .link {
+        padding: 0.25rem;
+        font-size: 0.9rem;
+    }
 }
