@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+.contact{
+    font-family: 'Libre Baskerville', serif;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    background-color: #00173B;
+    color: white;
+}
+
+.contact a {
+    text-decoration: none;
+    color: white;
+}
+
+.description{
+    padding: 2%;
+    border: 1px solid #0B2C4D;
+    border-radius: 10px;
+    background-color: #00317A;
+    box-shadow: 0 4px 8px #0B2C4D;
+}
+
+.socialMedia{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.linked{
+    background-color: #26528C;
+    width: 25%;
+    padding: 1%;
+    margin: 1rem;
+    border: 1px solid #26528C;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.github{
+    background-color: grey;
+    width: 25%;
+    padding: 1%;
+    margin: 1rem;
+    border: 1px solid grey;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.gmail{
+    background-color: #BF3B3B;
+    width: 25%;
+    padding: 1%;
+    margin: 1rem;
+    border: 1px solid #BF3B3B;
+    border-radius: 10px;
+    cursor: pointer;
+}

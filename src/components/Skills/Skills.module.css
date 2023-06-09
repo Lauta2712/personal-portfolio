@@ -1,0 +1,24 @@
+.skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 80vw;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.items{
+    background-color: #F53500;
+    padding: 0.32rem;
+    margin-right: 1rem;
+    text-decoration: none;
+    list-style: none;
+    border: 1px solid #F53500;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px #F53500;
+    color: white;
+}
