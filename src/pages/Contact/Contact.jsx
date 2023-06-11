@@ -1,11 +1,13 @@
 import React from "react";
-import styles from "./Contact.module.css"
+import styles from "./Contact.module.css";
+import photo from "../../img/WhatsApp Image 2023-06-11 at 19.57.28.jpeg"
 
 const Contact = () => {
     return(
         <div className={styles.contact}>
             <h1>Contact Me</h1>
             <div className={styles.description}>
+                <img src={photo} alt="Lautaro Rodriguez image" className={styles.photo}/>
                 <p>You can contact me at LinkedIn, GitHub or Gmail</p>
             </div>
             <div className={styles.socialMedia}>

@@ -24,6 +24,15 @@
     box-shadow: 0 4px 8px #0B2C4D;
 }
 
+.photo{
+    width: 200px; /* Ajusta el tamaño según tus necesidades */
+    height: 200px; /* Ajusta el tamaño según tus necesidades */
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    margin-left: 25%;
+}
+
 .socialMedia{
     display: flex;
     flex-direction: row;

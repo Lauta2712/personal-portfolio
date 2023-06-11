@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+.services{
+    font-family: 'Libre Baskerville', serif;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    background-color: #00173B;
+    color: orangered;
+    text-shadow: 0 0 5px orangered, 0 0 10px orangered, 0 0 20px orangered, 0 0 30px orangered;
+    font-size: 2rem;
+}
