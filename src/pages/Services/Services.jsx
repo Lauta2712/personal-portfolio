@@ -6,8 +6,8 @@ const Services = () => {
     return(
         <div className={styles.services}>
             <div>
-                
                 <p>Full Stack Development</p>
+                
             </div>
             <div>
                 <p>Front-End Development</p>
