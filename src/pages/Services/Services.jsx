@@ -1,21 +1,19 @@
 import React from "react";
 import styles from "./Services.module.css"
-//import fullstack from "../../img/360_F_318606217_Hk8jo2MVoI33SQOkYrfOF929J7JgIP0P.jpg"
 
 const Services = () => {
     return(
         <div className={styles.services}>
-            <div>
+            <div className={styles.servicesItems}>
                 <p>Full Stack Development</p>
-                
             </div>
-            <div>
+            <div className={styles.servicesItems}>
                 <p>Front-End Development</p>
             </div>
-            <div>
+            <div className={styles.servicesItems}>
                 <p>Back-End Development</p>
             </div>
-            <div>
+            <div className={styles.servicesItems}>
                 <p>Consultant</p>
             </div>
         </div>

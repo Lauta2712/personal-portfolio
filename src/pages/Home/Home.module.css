@@ -4,7 +4,7 @@
     font-family: 'Libre Baskerville', serif;
     text-align: center;
     background-color: #00173B;
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,7 +12,26 @@
     font-size: calc(10px + 2vmin);
     color: white;
     font-weight: lighter;
-    overflow: hidden;
     margin: 0;
     padding: 0;
+}
+
+/* Estilos generales */
+body {
+    scrollbar-width: thin;
+    scrollbar-color: #00173B #f53500;
+}
+
+/* Estilos para WebKit (Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #00173B;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #f53500;
+    border-radius: 8px;
 }

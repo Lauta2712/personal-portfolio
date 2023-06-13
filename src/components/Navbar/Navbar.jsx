@@ -13,9 +13,9 @@ const Navbar = () => {
                 <Link to="/about" className={styles.link}>
                     About
                 </Link>
-                <Link to="/services" className={styles.link}>
+                {/* <Link to="/services" className={styles.link}>
                     What can I offer?
-                </Link>
+                </Link> */}
             </div>
         </nav>
     );

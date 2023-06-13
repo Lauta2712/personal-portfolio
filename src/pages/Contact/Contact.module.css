@@ -7,7 +7,7 @@
     width: 100vw;
     height: 100vh;
     align-items: center;
-    background-color: #00173B;
+    background-color:#212121;
     color: white;
 }
 
@@ -18,10 +18,10 @@
 
 .description{
     padding: 2%;
-    border: 1px solid #0B2C4D;
+    border: 1px solid #212121;
     border-radius: 10px;
-    background-color: #00317A;
-    box-shadow: 0 4px 8px #0B2C4D;
+    background-color: #212121;
+    box-shadow: 0 4px 8px #f53500;
 }
 
 .photo{

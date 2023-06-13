@@ -7,24 +7,24 @@
   justify-content: center;
   width: 100vw;
   height: 100vh;
-  background-color: #00173B;
+  background-color:#212121;
 }
 
 .english,
 .spanish {
-  background-color: #040F1A;
+  background-color:#212121;
   color: white;
   text-align: justify;
   padding: 2%;
-  border: 1px solid #0B2C4D;
-  box-shadow: 0 0 5px #0B2C4D;
+  border: 1px solid #212121;
+  box-shadow: 0 4px 8px #f53500;
   border-radius: 10px;
   margin: 2%;
 }
 
 .english h2,
 .spanish h2 {
-  margin-left: 45%;
+  margin-left: 40%;
 }
 
 /* Media Queries */
@@ -40,3 +40,13 @@
     text-align: center;
   }
 }
+
+/* .certificate{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 250px;
+  max-height: 200px;
+  margin-left: 40%;
+} */
