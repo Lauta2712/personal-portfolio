@@ -64,8 +64,16 @@
 }
 
 @media (max-width: 600px) {
+  .projects {
+    grid-template-columns: 1fr;
+  }
+  
   .projectsItems {
     width: 100%;
+    padding: 0.5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-right: 10rem;
   }
 
   .projectsContainer {

@@ -18,7 +18,6 @@ const Projects = () => {
 
   return (
     <div className={styles.projectsContainer}>
-      <h3>Top Projects</h3>
       <div className={styles.projects}>
         <a
           href="https://byte-me-front.vercel.app/"
