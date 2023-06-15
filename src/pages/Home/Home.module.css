@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 
 .home {
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Acme', sans-serif;    
     text-align: center;
     background-color:#212121;
     height: 100%;
@@ -19,7 +19,7 @@
 /* Estilos generales */
 body {
     scrollbar-width: thin;
-    scrollbar-color: #00173B #f53500;
+    scrollbar-color: #212121 #f53500;
 }
 
 /* Estilos para WebKit (Chrome, Safari) */
@@ -28,7 +28,7 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-    background: #00173B;
+    background: #212121;
 }
 
 ::-webkit-scrollbar-thumb {
