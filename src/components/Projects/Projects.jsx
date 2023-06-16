@@ -46,7 +46,7 @@ const Projects = () => {
         </a>
 
         <a
-          href="https://github.com/Lauta2712/Countries_PI"
+          href="https://countriesclient.onrender.com"
           target="_blank"
           rel="noopener noreferrer"
           className={`${styles.projectsItems} ${
