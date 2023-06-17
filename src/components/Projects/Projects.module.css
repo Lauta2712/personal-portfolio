@@ -66,6 +66,7 @@
 @media (max-width: 600px) {
   .projects {
     grid-template-columns: 1fr;
+    margin-right: 5%;
   }
   
   .projectsItems {
