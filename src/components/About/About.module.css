@@ -3,11 +3,12 @@
 .about {
   font-family: 'Acme', sans-serif;    
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
-  width: 100vw;
-  height: 100vh;
+  align-items: center;
+  width: 90%;
   background-color:#212121;
+  margin-top: 5rem;
 }
 
 .english,
@@ -16,16 +17,16 @@
   color: white;
   text-align: justify;
   padding: 2%;
-  border: 1px solid #212121;
-  box-shadow: 0 4px 8px #f53500;
+  /* border: 1px solid #212121;
+  box-shadow: 0 4px 8px #f53500; */
   border-radius: 10px;
   margin: 2%;
 }
 
-.english h2,
+/* .english h2,
 .spanish h2 {
-  margin-left: 40%;
-}
+  margin-left: 20%;
+} */
 
 /* Media Queries */
 @media (max-width: 600px) {

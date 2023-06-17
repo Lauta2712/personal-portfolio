@@ -4,6 +4,7 @@
     font-family: 'Acme', sans-serif;    
     text-align: center;
     background-color:#212121;
+    width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -14,6 +15,11 @@
     font-weight: lighter;
     margin: 0;
     padding: 0;
+    overflow-y: hidden;
+}
+
+.fullstack{
+    color: #f53500;
 }
 
 /* Estilos generales */
