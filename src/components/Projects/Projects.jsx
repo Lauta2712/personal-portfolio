@@ -111,7 +111,7 @@ const Projects = () => {
           </div>
           <div className={styles.back}>
             <p>
-              Revista Habitat fue el primero proyecto que realicé iniciando mi camino en el mundo de la programación, proyecto en el cuál me inspiré desde algo muy simple sobre lo que todos deberíamos ser conscientes: Cuidar el Mundo en el que vivimos.
+              Revista Habitat fue el primer proyecto que realicé iniciando mi camino en el mundo de la programación, proyecto en el cuál me inspiré desde algo muy simple sobre lo que todos deberíamos ser conscientes: Cuidar el Mundo en el que vivimos.
               Tecnologías utilizadas:
               HTML, CSS, Bootstrap, Sass, Git, GitHub 
             </p>
