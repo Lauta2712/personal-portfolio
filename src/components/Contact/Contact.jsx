@@ -5,10 +5,10 @@ import photo from "../../img/Lautaro.jpeg"
 const Contact = () => {
     return(
         <div className={styles.contact}>
-            <h1>Contact Me</h1>
+            <h1>Contacto</h1>
             <div className={styles.description}>
                 <img src={photo} alt="Lautaro Rodriguez image" className={styles.photo}/>
-                <p>You can contact me at LinkedIn, GitHub or Gmail</p>
+                <p>Me podés encontrar en LinkedIn, GitHub or Gmail</p>
             </div>
             <div className={styles.socialMedia}>
                 <div className={styles.linked}>
