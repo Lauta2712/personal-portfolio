@@ -6,8 +6,11 @@
     flex-direction: column;
     width: 90vw;
     align-items: center;
-    background-color:#212121;
-    color: white;
+    background-color:transparent;
+}
+
+.contact h1{
+    color: #212121;
 }
 
 .contact a {
@@ -21,6 +24,7 @@
     border-radius: 10px;
     background-color: #212121;
     box-shadow: 0 4px 8px #f53500;
+    color: white;
 }
 
 .photo{

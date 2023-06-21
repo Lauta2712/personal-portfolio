@@ -7,14 +7,14 @@
   justify-content: center;
   align-items: center;
   width: 90%;
-  background-color:#212121;
+  background-color: transparent;
   margin-top: 5rem;
 }
 
 .english,
 .spanish {
-  background-color:#212121;
-  color: white;
+  background-color: transparent;
+  color: #212121;
   text-align: justify;
   padding: 2%;
   /* border: 1px solid #212121;

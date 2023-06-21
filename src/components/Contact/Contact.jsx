@@ -8,7 +8,7 @@ const Contact = () => {
             <h1>Contacto</h1>
             <div className={styles.description}>
                 <img src={photo} alt="Lautaro Rodriguez image" className={styles.photo}/>
-                <p>Me podés encontrar en LinkedIn, GitHub or Gmail</p>
+                <p>Me podés encontrar en LinkedIn, GitHub o Gmail</p>
             </div>
             <div className={styles.socialMedia}>
                 <div className={styles.linked}>
