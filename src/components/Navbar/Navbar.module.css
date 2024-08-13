@@ -1,56 +1,53 @@
 .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 90%;
-    background-color: #212121;
-    color: white;
-    padding: 1rem;
-    margin-bottom: 5%;
-    border: 1px solid #212121;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px #f53500;
+  display: flex;
+  width: 98%;
+  padding: 1%;
+  background-color: none;
+  color: #fff;
 }
 
 .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin: 0;
+  align-items: flex-start;
+  font-size: 38px;
+  cursor: pointer;
 }
 
-.links {
-    display: flex;
-    gap: 1rem;
+.photo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 1%;
 }
 
-.link {
-    text-decoration: none;
-    color: white;
-    padding: 0.5rem;
-    border-radius: 4px;
-    transition: background-color 0.3s;
+.navItems {
+  display: flex;
+  justify-content: flex-end;
+  justify-content: space-between;
+  margin-left: auto;
+  width: 45%;
 }
 
-.link:hover {
-    background-color: #404040;
+.navItems div {
+  margin: 1%;
+  font-size: 28px;
+  cursor: pointer;
+  position: relative; 
 }
 
-/* Media Query */
-@media (max-width: 600px) {
-    .navbar {
-        flex-wrap: wrap;
-        justify-content: flex-start;
-        padding: 1rem;
-        margin-top: 0;
-    }
+.navItems div:hover {
+  text-decoration: underline;
+}
 
-    .links {
-        flex-wrap: wrap;
-        gap: 0.5rem;
-    }
+.navItems div::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background-color: #08B5FF; 
+  transition: width 0.3s;
+}
 
-    .link {
-        padding: 0.25rem;
-        font-size: 0.9rem;
-    }
+.navItems div:hover::after {
+  width: 100%;
 }

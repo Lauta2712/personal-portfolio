@@ -1,20 +1,29 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
 import styles from "./Navbar.module.css";
+import photo from "../../img/Lautaro.jpeg";
 
 const Navbar = () => {
+    const handleItemClick = (sectionId) => {
+        const element = document.getElementById(sectionId);
+        if (element) {
+            element.scrollIntoView({ behavior: "smooth" });
+        }
+    };
+
     return (
-        <nav className={styles.navbar}>
-            <h2 className={styles.logo}>Lautaro Rodriguez</h2>
-            <div className={styles.links}>
-                <Link to="/contact" className={styles.link}>
-                    Contact
-                </Link>
-                <Link to="/about" className={styles.link}>
-                    About
-                </Link>
+        <div className={styles.navbar}>
+            <img src={photo} alt="Lautaro Rodriguez image" className={styles.photo} />
+            <div className={styles.logo}>
+                Lautaro Rodriguez
             </div>
-        </nav>
+
+            <div className={styles.navItems}>
+                <div onClick={() => handleItemClick("skills")}>Skills</div>
+                <div onClick={() => handleItemClick("about")}>Acerca de</div>
+                <div onClick={() => handleItemClick("experience")}>Experiencia</div>
+                <div onClick={() => handleItemClick("contact")}>Contacto</div>
+            </div>
+        </div>
     );
 };
 

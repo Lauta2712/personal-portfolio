@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 
 .contact{
-    font-family: 'Acme', sans-serif;    
+    font-family: 'Bebas Neue', sans-serif;
     display: flex;
     flex-direction: column;
-    width: 90vw;
+    width: 99vw;
     align-items: center;
     background-color:transparent;
+    margin-bottom: 15%;
 }
 
 .contact h1{
-    color: #212121;
+    color: white;
 }
 
 .contact a {
@@ -19,17 +20,19 @@
 }
 
 .description{
+    width: 40%;
     padding: 2%;
-    border: 1px solid #212121;
-    border-radius: 10px;
-    background-color: #212121;
-    box-shadow: 0 4px 8px #f53500;
-    color: white;
+    border: 1px solid #08B5FF;
+    /* border-radius: 10px; */
+     background-color: #045A80;
+    /* box-shadow: 0 4px 8px #f53500; */
+    box-shadow: 0 4px 8px #08B5FF;
+    color: black;
 }
 
 .photo{
-    width: 200px; /* Ajusta el tamaño según tus necesidades */
-    height: 200px; /* Ajusta el tamaño según tus necesidades */
+    width: 200px; 
+    height: 200px; 
     border-radius: 50%;
     object-fit: cover;
     object-position: center;
@@ -39,36 +42,27 @@
 .socialMedia{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    font-weight: bolder;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
-.linked{
-    background-color: #26528C;
-    width: 25%;
-    padding: 1%;
-    margin: 1rem;
-    border: 1px solid #26528C;
-    border-radius: 10px;
+.linked img{
+    width: 4rem;
+    /* margin: 25%; */
+    height: auto;
     cursor: pointer;
 }
 
-.github{
-    background-color: grey;
-    width: 25%;
-    padding: 1%;
-    margin: 1rem;
-    border: 1px solid grey;
-    border-radius: 10px;
+.github img{
+    width: 4rem;
+    /* margin: 25%; */
+    height: auto;
     cursor: pointer;
 }
 
-.gmail{
-    background-color: #BF3B3B;
-    width: 25%;
-    padding: 1%;
-    margin: 1rem;
-    border: 1px solid #BF3B3B;
-    border-radius: 10px;
+.gmail img{
+    width: 4rem;
+    /* margin: 25%; */
+    height: auto;
     cursor: pointer;
 }
