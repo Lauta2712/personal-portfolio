@@ -1,0 +1,28 @@
+body{
+  margin-top: 10%;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #121212;
+  color: #fff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #1e1e1e;
+  position: fixed;
+  padding-right: 15%;
+  width: 100%;
+  z-index: 999; 
+}
+
+.hero-image img {
+  border-radius: 50%;
+  max-width: 65px;
+}

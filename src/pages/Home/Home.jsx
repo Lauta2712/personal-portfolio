@@ -1,27 +1,21 @@
 import React from "react";
-import styles from "./Home.module.css";
-import Skills from "../../components/Skills/Skills";
-import About from "../../components/About/About";
-import Contact from "../../components/Contact/Contact";
-import Experience from "../../components/Experience/Experience";
+import "./Home.css";
 import Navbar from "../../components/Navbar/Navbar";
+import Footer from "../../components/Footer/Footer";
+import HeroContent from "../../components/HeroContent/HeroContent";
+import About from "../../components/About/About";
+import Experience from "../../components/Experience/Experience";
+import Skills from "../../components/Skills/Skills";
 
 const Home = () => {
     return (
-        <div className={styles.home}>
+        <div className="home-container">           
             <Navbar />
-            <section id="skills">
-                <Skills/>
-            </section>
-            <section id="about" >
-                <About/>
-            </section>
-            <section id="experience" >
-                <Experience/>
-            </section>
-            <section id="contact" >
-                <Contact/>
-            </section>
+            <HeroContent />
+            <About />
+            <Experience/>
+            <Skills/>
+            <Footer />
         </div>
     );
 }

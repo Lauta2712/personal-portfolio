@@ -1,28 +1,15 @@
 import React from "react";
-import styles from "./About.module.css";
+import "./About.css";
 
 const About = () => {
   return (
-    <div className={styles.about}>
-      <div >
-        <h2>Hola! Mi nombre es Lautaro Rodriguez</h2>
-      </div>
+    <section id="about" className="about-section">
+      <h2>Acerca de </h2>
       <p>
-        Soy Full Stack Developer con background como estudiante de Ingeniería
-        Industrial, ayudándome a desarrollar la lógica ante la resolución de un
-        problema y la perseverancia para conseguir mis objetivos. Poseo
-        conocimientos en metodologías ágiles (Scrum) y estoy muy acostumbrado al
-        trabajo en equipo. Tengo experiencia en desarrollo de Front End y Back
-        End con: GIT, HTML, Javascript, estructura de datos, algoritmos, CSS,
-        frameworks CSS, React.js, Redux, Node.js, Express, SQL, Sequelize. Me
-        considero una persona con adaptabilidad, creatividad, pensamiento
-        crítico, responsabilidad y curiosidad. Soy una persona con mucha energía
-        e inquieta, que siempre está buscando aprender cosas nuevas pero sobre
-        todo con muchas ganas de seguir creciendo tanto en lo personal como
-        también en el ámbito profesional.
+        Full Stack Developer con más de 1 año de experiencia. Con conocimientos en metodologías ágiles (SCRUM), GIT, HTML, CSS, Javascript, Bootstrap, React.js, Redux, Node.js, Express, SQL, Sequelize, Entity Framework, C#, .NET, SQL Server, Material UI, KendouUI. Experiencia en desarrollo de software a medida, dashboards, plugins, diseño de APIs, modificaciones de base de datos, que me permitió desarrollar habilidades como adaptabilidad, creatividad, pensamiento crítico, entre otras. Nivel de inglés: C1.
       </p>
-    </div>
+    </section>
   );
-};
+}
 
 export default About;

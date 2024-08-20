@@ -1,0 +1,76 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #1e1e1e;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.hero-image img {
+  border-radius: 50%;
+  max-width: 65px;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 20px;
+  text-decoration: none;
+  list-style: none;
+  justify-content: center;
+  margin: 0;
+  padding-right: 25%;
+  flex-grow: 1; 
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+  font-weight: bolder;
+}
+
+.navbar a:hover {
+  color: #00BFFF;
+}
+
+/* Estilos adicionales para mobile y sidebar */
+
+.hamburger {
+  display: none; 
+  cursor: pointer;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: -650px;
+  width: 35vw;
+  height: 100%;
+  background-color: #333;
+  color: #fff;
+  transition: right 0.3s ease;
+  z-index: 1000;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar.open {
+  right: 0; 
+}
+
+@media (max-width: 480px) {
+  .hamburger {
+      display: block; 
+  }
+
+  .navbar {
+      display: none;
+  }
+}

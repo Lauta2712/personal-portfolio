@@ -1,0 +1,111 @@
+.experience-section {
+  padding: 60px 20px;
+  background-color: #121212;
+  text-align: center;
+}
+
+.experience-section h2 {
+  font-size: 2.5em;
+  color: #00BFFF;
+  margin-bottom: 20px;
+}
+
+.experience-item {
+  background-color: #1e1e1e; 
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 40px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.experience-item:hover {
+  transform: translateY(-10px); 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.experience-header {
+  display: flex;
+  align-items: center; 
+  justify-content: flex-start;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.experience-icon {
+  color: #00BFFF;
+  font-size: 2em;
+  margin-right: 15px;
+}
+
+.calendar-icon {
+  color: #ccc;
+  margin-left: 10px;
+  margin-right: 20px; 
+}
+
+.experience-details {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.experience-item h3 {
+  font-size: 1.8em;
+  color: #fff;
+  margin: 0;
+}
+
+.experience-item p {
+  font-size: 1.2em;
+  color: #ccc;
+}
+
+.experience-date{
+  font-size: 1em;
+  color: #888;
+  margin-left: auto;
+  width: 180px; 
+  text-align: right;
+}
+
+.experience-item ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+.experience-item li {
+  font-size: 1em;
+  color: #bbb;
+  margin: 10px 0;
+  transition: color 0.3s ease;
+  max-width: 450px;
+  /* min-width: 60%;
+  max-width: 65%; */
+  /* margin-left: auto; */
+}
+
+.experience-item li:hover {
+  color: #00BFFF;
+}
+
+.experience-item p,
+.experience-item ul,
+.experience-item li {
+  text-align: justify;
+}
+
+@media (min-width: 768px) {
+  .experience-item {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .experience-header {
+    flex-basis: 70%;
+  }
+
+  .experience-date {
+    flex-basis: 30%;
+    text-align: right;
+  }
+}
