@@ -73,21 +73,6 @@ const Experience = () => {
           <li>Base de datos: PostgreSQL, Sequelize.</li>
         </ul>
       </div>
-      {/* <div className="experience-item">
-        <div className="experience-header">
-          <FaCode className="experience-icon" /> 
-          <div className="experience-details">
-            <h3>Experiencia Académica</h3>
-            <p>Henry Bootcamp</p>
-          </div>
-          <FaCalendarAlt className="calendar-icon" />
-          <p className="experience-date">Fecha de finalización</p>
-        </div>
-        <ul>
-          <li>Participación en proyectos académicos relacionados con el desarrollo web full stack.</li>
-          <li>Aprendizaje de tecnologías clave y desarrollo de habilidades prácticas en el contexto de bootcamp.</li>
-        </ul>
-      </div> */}
     </section>
   );
 };

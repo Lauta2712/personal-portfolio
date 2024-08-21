@@ -1,7 +1,7 @@
 import React from "react";
 import "./Skills.css";
 import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaNode, FaGit, FaBootstrap } from "react-icons/fa";
-import { SiRedux, SiExpress, SiPostgresql, SiSequelize, SiCsharp, SiCplusplus, SiSass, SiScrumalliance } from "react-icons/si";
+import { SiRedux, SiExpress, SiPostgresql, SiSequelize, SiCsharp, SiCplusplus } from "react-icons/si";
 
 const Skills = () => {
   return (

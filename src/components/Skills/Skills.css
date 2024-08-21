@@ -43,3 +43,24 @@
   background-color: #00BFFF;
   color: #121212;
 }
+
+@media (max-width: 480px) {
+  .skills-section h2 {
+    margin-top: 15%;
+    font-size: 2rem; /* Reducción del tamaño del texto del título */
+  }
+
+  .skills-list {
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr)); /* Reducir el tamaño mínimo de las columnas */
+    gap: 10px; /* Reducir el espacio entre ítems */
+  }
+
+  .skills-list li {
+    font-size: 1em; /* Reducir el tamaño de la fuente */
+    padding: 10px; /* Reducir el padding para una mejor adaptación en pantallas pequeñas */
+  }
+
+  .skills-list li svg {
+    font-size: 1.2em; /* Reducir el tamaño de los íconos */
+  }
+}

@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "./Navbar.css";
 import profileImage from "../../img/Lautaro.jpeg";
+import { FaUser, FaTools, FaBriefcase, FaEnvelope } from "react-icons/fa";
+
 
 const Navbar = () => {
     const [navOpen, setNavOpen] = useState(false);
@@ -28,12 +30,12 @@ const Navbar = () => {
                 {isMobile ? (
                     <>
                         <aside className={`sidebar ${navOpen ? "open" : ""}`}>
-                            <button className="close-btn" onClick={toggleNav}>×</button>
                             <ul>
-                                <li><a href="#about" onClick={toggleNav}>About</a></li>
-                                <li><a href="#skills" onClick={toggleNav}>Skills</a></li>
-                                <li><a href="#experience" onClick={toggleNav}>Experience</a></li>
-                                <li><a href="#contact" onClick={toggleNav}>Contact</a></li>
+                                <li><button className="close-btn" onClick={toggleNav}>×</button></li>
+                                <li><a href="#hero"><FaUser size={24} /> </a></li>
+                                <li><a href="#experience"><FaBriefcase size={24} /> </a></li>
+                                <li><a href="#skills"><FaTools size={24} /> </a></li>
+                                <li><a href="#footer"><FaEnvelope size={24} /> </a></li>
                             </ul>
                         </aside>
                         <div className="hamburger" onClick={toggleNav}>
@@ -45,10 +47,10 @@ const Navbar = () => {
                 ) : (
                     <nav className="navbar">
                         <ul>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#skills">Skills</a></li>
-                            <li><a href="#experience">Experience</a></li>
-                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="#about" onClick={toggleNav}>About</a></li>
+                            <li><a href="#experience" onClick={toggleNav}>Experience</a></li>
+                            <li><a href="#skills" onClick={toggleNav}>Skills</a></li>
+                            <li><a href="#footer" onClick={toggleNav}>Contact</a></li>
                         </ul>
                     </nav>
                 )}
