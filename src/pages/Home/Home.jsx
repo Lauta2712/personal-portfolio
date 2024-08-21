@@ -6,6 +6,7 @@ import HeroContent from "../../components/HeroContent/HeroContent";
 import About from "../../components/About/About";
 import Experience from "../../components/Experience/Experience";
 import Skills from "../../components/Skills/Skills";
+import LazyLoadComponent from "../../components/LazyLoadComponent/LazyLoadComponent";
 
 const Home = () => {
     return (
@@ -13,8 +14,12 @@ const Home = () => {
             <Navbar />
             <HeroContent />
             <About />
-            <Experience/>
-            <Skills/>
+            <LazyLoadComponent>
+                <Experience />
+            </LazyLoadComponent>
+            <LazyLoadComponent>
+                <Skills />
+            </LazyLoadComponent>
             <Footer />
         </div>
     );

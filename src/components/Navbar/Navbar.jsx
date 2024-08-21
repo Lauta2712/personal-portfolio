@@ -37,7 +37,9 @@ const Navbar = () => {
                             </ul>
                         </aside>
                         <div className="hamburger" onClick={toggleNav}>
-                            <div className={`bar ${navOpen ? "open" : ""}`}></div>
+                            <span className={`bar ${navOpen ? "open" : ""}`}></span>
+                            <span className={`bar ${navOpen ? "open" : ""}`}></span>
+                            <span className={`bar ${navOpen ? "open" : ""}`}></span>
                         </div>
                     </>
                 ) : (

@@ -5,7 +5,7 @@ import { FaCode, FaStore, FaCalendarAlt } from "react-icons/fa";
 const Experience = () => {
   return (
     <section id="experience" className="experience-section">
-      <h2>Experience</h2>
+      <h2>Experiencia</h2>
       <div className="experience-item">
         <div className="experience-header">
           <FaCode className="experience-icon" /> 
@@ -59,7 +59,7 @@ const Experience = () => {
           <div className="experience-details">
             <h3>Full Stack Web Developer</h3>
             <p>Byte Me</p>
-            <p>Experiencia Académica | Henry Bootcamp</p>
+            <p>Experiencia Académica Henry Bootcamp</p>
           </div>
           <FaCalendarAlt className="calendar-icon" />
           <p className="experience-date">May 2023 - Jun 2023</p>

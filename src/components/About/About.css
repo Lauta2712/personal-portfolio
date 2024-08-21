@@ -17,4 +17,14 @@
   color: #fff;
   max-width: 800px;
   margin: 0 auto;
+  text-align: justify;
+}
+
+@media (max-width: 480px) {
+  .about-section h2{
+    font-size: 1.8rem;
+  }
+  .about-section p{
+    font-size: 1rem;
+  }
 }

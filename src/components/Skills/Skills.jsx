@@ -1,28 +1,31 @@
 import React from "react";
 import "./Skills.css";
+import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaNode, FaGit, FaBootstrap } from "react-icons/fa";
+import { SiRedux, SiExpress, SiPostgresql, SiSequelize, SiCsharp, SiCplusplus, SiSass, SiScrumalliance } from "react-icons/si";
 
 const Skills = () => {
   return (
     <section id="skills" className="skills-section">
       <h2>Skills</h2>
       <ul className="skills-list">
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>React</li>
-        <li>Redux</li>
-        <li>Node.js</li>
-        <li>Express</li>
+        <li><FaHtml5 /></li>
+        <li><FaCss3Alt /></li>
+        <li><FaJsSquare /></li>
+        <li><FaReact /></li>
+        <li><SiRedux /></li>
+        <li><FaNode /></li>
+        <li><SiExpress /></li>
+        <li><SiPostgresql /></li>
         <li>SQL</li>
+        <li><SiSequelize /></li>
         <li>Scrum</li>
-        <li>Sequelize</li>
-        <li>Git</li>
-        <li>Bootstrap</li>
-        <li>SASS</li>
+        <li><FaGit /></li>
+        <li><FaBootstrap /></li>
+        {/* <li><SiSass /> SASS</li> */}
         <li>Material UI</li>
         <li>C</li>
-        <li>C++</li>
-        <li>C#</li>
+        <li><SiCplusplus /> </li>
+        <li><SiCsharp /> </li>
       </ul>
     </section>
   );

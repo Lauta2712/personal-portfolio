@@ -109,3 +109,18 @@
     text-align: right;
   }
 }
+
+@media (max-width: 480px) {
+  body{
+    margin-top: 35%;
+  }
+  .experience-item h3{
+    font-size: 1rem;
+  }
+  .experience-item p{
+    font-size: 0.8rem;
+  }
+  .experience-item li{
+    font-size: 0.6rem;
+  }
+}
