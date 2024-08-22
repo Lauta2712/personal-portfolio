@@ -1,76 +1,75 @@
 import React from "react";
 import "./Experience.css";
 import { FaCode, FaStore, FaCalendarAlt } from "react-icons/fa";
+import { useTranslation } from 'react-i18next';
 
 const Experience = () => {
+  const { t } = useTranslation();
+
   return (
     <section id="experience" className="experience-section">
-      <h2>Experiencia</h2>
+      <h2>{t('experience')}</h2>
       <div className="experience-item">
         <div className="experience-header">
           <FaCode className="experience-icon" /> 
           <div className="experience-details">
-            <h3>Full Stack Developer</h3>
-            <p>ANT Automation</p>
+            <h3>{t('jobTitle1')}</h3>
+            <p>{t('company1')}</p>
           </div>
           <FaCalendarAlt className="calendar-icon" />
-          <p className="experience-date">Jul 2023 - Actualidad</p>
+          <p className="experience-date">{t('date1')}</p>
         </div>
         <ul>
-          <li>Desarrollar dashboards, plugins y aplicaciones online utilizando Javascript, React, Redux, Material UI, KendoUI, Highcharts, CSS, C#, .NET, Entity Framework, SQL, SQL Server, Sequelize.</li>
-          <li>Diseñar interfaces y elementos frontend, mantener y optimizar sitios web existentes.</li>
+          <li>{t('responsibility1')}</li>
+          <li>{t('responsibility2')}</li>
         </ul>
       </div>
       <div className="experience-item">
         <div className="experience-header">
           <FaCode className="experience-icon" />
           <div className="experience-details">
-            <h3>Front End Developer</h3>
-            <p>QXM</p>
+            <h3>{t('jobTitle2')}</h3>
+            <p>{t('company2')}</p>
           </div>
           <FaCalendarAlt className="calendar-icon" />
-          <p className="experience-date">Sep 2023 - Dic 2023</p>
+          <p className="experience-date">{t('date2')}</p>
         </div>
         <ul>
-          <li>Desarrollo de landing pages, dashboards, creación de plugins, mejoras, etc.</li>
-          <li>Frontend: Javascript, React, SASS, Bootstrap.</li>
-          <li>Backend: NextJS, SQL.</li>
+          <li>{t('responsibility3')}</li>
+          <li>{t('responsibility4')}</li>
+          <li>{t('responsibility5')}</li>
         </ul>
       </div>
       <div className="experience-item">
         <div className="experience-header">
           <FaStore className="experience-icon" /> 
           <div className="experience-details">
-            <h3>Encargado de Local</h3>
-            <p>Almacen Meat MARKET</p>
+            <h3>{t('jobTitle3')}</h3>
+            <p>{t('company3')}</p>
           </div>
           <FaCalendarAlt className="calendar-icon" />
-          <p className="experience-date">Ago 2022 - Nov 2022</p>
+          <p className="experience-date">{t('date3')}</p>
         </div>
         <ul>
-          <li>Encargado de la apertura y cierre del local.</li>
-          <li>Encargado de la caja (apertura y cierre de caja).</li>
-          <li>Atención al cliente y control de personal.</li>
+          <li>{t('responsibility6')}</li>
+          <li>{t('responsibility7')}</li>
+          <li>{t('responsibility8')}</li>
         </ul>
       </div>
       <div className="experience-item">
         <div className="experience-header">
-          <FaCode className="experience-icon" /> 
+          <FaCode className="experience-icon" />
           <div className="experience-details">
-            <h3>Full Stack Web Developer</h3>
-            <p>Byte Me</p>
-            <p>Experiencia Académica Henry Bootcamp</p>
+            <h3>{t('jobTitle4')}</h3>
+            <p>{t('company4')}</p>
           </div>
           <FaCalendarAlt className="calendar-icon" />
-          <p className="experience-date">May 2023 - Jun 2023</p>
+          <p className="experience-date">{t('date4')}</p>
         </div>
         <ul>
-          <li>Desarrollo de un sitio web de ecommerce para productos tecnológicos.</li>
-          <li>Participación en la creación de landing pages, búsquedas, filtrados combinados, ordenamientos, y formularios para crear productos.</li>
-          <li>Implementación de autenticación de terceros, notificaciones por mail, paginado, dashboard de administrador para la gestión de productos y usuarios, y pasarela de pagos.</li>
-          <li>Frontend: HTML, CSS, React, Redux, Auth0, Stripe.</li>
-          <li>Backend: Express, Node, Nodemailer, Cloudinary, Stripe.</li>
-          <li>Base de datos: PostgreSQL, Sequelize.</li>
+          <li>{t('responsibility9')}</li>
+          <li>{t('responsibility10')}</li>
+          <li>{t('responsibility11')}</li>
         </ul>
       </div>
     </section>

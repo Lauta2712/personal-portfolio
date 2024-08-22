@@ -3,8 +3,12 @@ import "./Footer.css";
 import LinkedIn from "../../icons/linkedin.png";
 import Gmail from "../../icons/gmail.png";
 import GitHub from "../../icons/github (2).png";
+import { useTranslation } from 'react-i18next';  
+
 
 const Footer = () => {
+    const { t } = useTranslation();
+
     return (
         <footer id="footer" className="footer">
             <a href="https://www.linkedin.com/in/lautaro-rodriguez-a87ba1231" target="_blank" rel="noopener noreferrer">
@@ -14,7 +18,7 @@ const Footer = () => {
                 <img src={GitHub} alt="GitHub" />
             </a>
             <a href="/docs/Lautaro_Rodriguez_CV.pdf" className="pdf" download>
-                <button>Descargar CV</button>
+                <button>{t('download cv')}</button>
             </a>
             {/* <a href="mailto:lautarorodriguez887@gmail.com">
                 <img src={Gmail} alt="Gmail" />

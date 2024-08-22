@@ -2,11 +2,12 @@ import React, { useState, useEffect } from "react";
 import "./Navbar.css";
 import profileImage from "../../img/Lautaro.jpeg";
 import { FaUser, FaTools, FaBriefcase, FaEnvelope } from "react-icons/fa";
-
+import { useTranslation } from 'react-i18next';  
 
 const Navbar = () => {
     const [navOpen, setNavOpen] = useState(false);
     const [isMobile, setIsMobile] = useState(window.innerWidth <= 480);
+    const { t, i18n } = useTranslation(); 
 
     useEffect(() => {
         const handleResize = () => {
@@ -19,6 +20,11 @@ const Navbar = () => {
 
     const toggleNav = () => {
         setNavOpen(!navOpen);
+    };
+
+    const toggleLanguage = () => {
+        const newLang = i18n.language === "en" ? "es" : "en";
+        i18n.changeLanguage(newLang); 
     };
 
     return (
@@ -47,11 +53,18 @@ const Navbar = () => {
                 ) : (
                     <nav className="navbar">
                         <ul>
-                            <li><a href="#about" onClick={toggleNav}>About</a></li>
-                            <li><a href="#experience" onClick={toggleNav}>Experience</a></li>
-                            <li><a href="#skills" onClick={toggleNav}>Skills</a></li>
-                            <li><a href="#footer" onClick={toggleNav}>Contact</a></li>
-                        </ul>
+                            <div className="language-switch">
+                                <label className="switch">
+                                    <input type="checkbox" checked={i18n.language === "es"} onChange={toggleLanguage} />
+                                    <span className="slider"></span>
+                                </label>
+                                <span className={`flag-icon ${i18n.language === "en" ? "flag-us" : "flag-ar"}`}></span>
+                            </div>
+                            <li><a href="#about" onClick={toggleNav}>{t('about')}</a></li>
+                            <li><a href="#experience" onClick={toggleNav}>{t('experience')}</a></li>
+                            <li><a href="#skills" onClick={toggleNav}>{t('skills')}</a></li>
+                            <li><a href="#footer" onClick={toggleNav}>{t('contact')}</a></li>
+                        </ul>                        
                     </nav>
                 )}
             </div>
