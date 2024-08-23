@@ -2,11 +2,14 @@ import React from "react";
 import "./Skills.css";
 import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaNode, FaGit, FaBootstrap } from "react-icons/fa";
 import { SiRedux, SiExpress, SiPostgresql, SiSequelize, SiCsharp, SiCplusplus } from "react-icons/si";
+import { useTranslation } from 'react-i18next';  
 
 const Skills = () => {
+  const { t } = useTranslation();
+
   return (
     <section id="skills" className="skills-section">
-      <h2>Skills</h2>
+      <h2>{t('skills')}</h2>
       <ul className="skills-list">
         <li><FaHtml5 /></li>
         <li><FaCss3Alt /></li>

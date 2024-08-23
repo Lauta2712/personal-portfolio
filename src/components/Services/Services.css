@@ -1,0 +1,144 @@
+.services-section {
+  padding: 60px 20px;
+  background-color: #121212;
+  text-align: center;
+}
+
+.services-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    width: 100%;
+}
+
+.services-section h2 {
+  font-size: 2.5em;
+  color: #00BFFF;
+  margin-bottom: 20px;
+}
+
+.service-item {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.service-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.service-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.service-icon {
+  color: #00BFFF;
+  font-size: 2em;
+  margin-right: 15px;
+}
+
+.service-details {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.service-item h3 {
+  font-size: 1.6em;
+  color: #fff;
+  margin: 0;
+}
+
+.service-item p {
+  font-size: 1em;
+  color: #ccc;
+}
+
+.service-item ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 15px;
+}
+
+.service-item li {
+  font-size: 0.8em;
+  color: #bbb;
+  margin: 10px 0;
+  transition: color 0.3s ease;
+  max-width: 450px;
+}
+
+.service-item li:hover {
+  color: #00BFFF;
+}
+
+.service-item p,
+.service-item ul,
+.service-item li {
+  text-align: justify;
+}
+
+@media (min-width: 768px) {
+  .service-item {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .service-header {
+    flex-basis: 70%;
+  }
+  
+  .service-item h3 {
+    font-size: 1em;
+  }
+
+  .service-item p {
+    font-size: 0.8em;
+  }
+
+  .service-item li {
+    font-size: 0.5em;
+  }
+}
+
+@media (max-width: 480px) {
+    .services-container {
+      grid-template-columns: 1fr;
+    }
+  
+    .services-section h2 {
+      font-size: 1.2em;
+      margin-top: 10%;
+    }
+  
+    .service-header {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between; 
+    }
+  
+    .service-icon {
+      margin: 0;
+    }
+  
+    .service-item h3 {
+      font-size: 1em;
+    }
+  
+    .service-item p {
+      font-size: 0.8em;
+    }
+  
+    .service-item li {
+      font-size: 0.5em;
+    }
+  }

@@ -7,6 +7,7 @@ import About from "../../components/About/About";
 import Experience from "../../components/Experience/Experience";
 import Skills from "../../components/Skills/Skills";
 import LazyLoadComponent from "../../components/LazyLoadComponent/LazyLoadComponent";
+import Services from "../../components/Services/Services";
 
 const Home = () => {
     return (
@@ -16,6 +17,9 @@ const Home = () => {
             <About />
             <LazyLoadComponent>
                 <Experience />
+            </LazyLoadComponent>
+            <LazyLoadComponent>
+                <Services />
             </LazyLoadComponent>
             <LazyLoadComponent>
                 <Skills />

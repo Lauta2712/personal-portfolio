@@ -222,4 +222,11 @@ input:checked + .slider:before {
   .navbar {
     display: none;
   }
+
+  .language-switch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+  }
 }

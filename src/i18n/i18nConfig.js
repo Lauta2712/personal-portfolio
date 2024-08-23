@@ -52,12 +52,27 @@ i18n
           
           // Footer
           "download cv":"Download CV",
+
+          // Services
+          "services": "Services",
+          "serviceTitle1": "Custom Web Development",
+          "serviceDescription1": "Building custom web applications tailored to your needs using modern technologies and best practices.",
+          "serviceFeature1": "Modern technologies",
+          "serviceFeature2": "Best practices",
+          "serviceTitle2": "Responsive Design",
+          "serviceDescription2": "Creating responsive and mobile-friendly designs that look great on all devices.",
+          "serviceFeature3": "Mobile-friendly",
+          "serviceFeature4": "Cross-device compatibility",
+          "serviceTitle3": "API Integration",
+          "serviceDescription3": "Integrating third-party APIs and creating custom APIs to enhance your application's functionality.",
+          "serviceFeature5": "Third-party APIs",
+          "serviceFeature6": "Custom API development"
         }
       },
       es: {
         translation: {
           // HeroContent
-          "greeting": "¡Hola! soy",
+          "greeting": "Hola! soy",
           "name": "Lautaro Rodriguez",
           "profession": "Desarrollador Full Stack",
           
@@ -101,6 +116,21 @@ i18n
           
           //Footer
           "download cv":"Descargar CV",
+
+          // Services
+          "services": "Servicios",
+          "serviceTitle1": "Desarrollo Web Personalizado",
+          "serviceDescription1": "Desarrollo de aplicaciones web personalizadas adaptadas a tus necesidades utilizando tecnologías modernas y mejores prácticas.",
+          "serviceFeature1": "Tecnologías modernas",
+          "serviceFeature2": "Mejores prácticas",
+          "serviceTitle2": "Diseño Responsivo",
+          "serviceDescription2": "Creación de diseños responsivos y amigables con dispositivos móviles que se ven bien en todos los dispositivos.",
+          "serviceFeature3": "Amigable con móviles",
+          "serviceFeature4": "Compatibilidad en dispositivos",
+          "serviceTitle3": "Integración de APIs",
+          "serviceDescription3": "Integración de APIs de terceros y creación de APIs personalizadas para mejorar la funcionalidad de tu aplicación.",
+          "serviceFeature5": "APIs de terceros",
+          "serviceFeature6": "Desarrollo de APIs personalizadas"
         }
       }
     },

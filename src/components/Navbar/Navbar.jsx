@@ -40,9 +40,16 @@ const Navbar = () => {
                                 <li><button className="close-btn" onClick={toggleNav}>×</button></li>
                                 <li><a href="#hero"><FaUser size={24} /> </a></li>
                                 <li><a href="#experience"><FaBriefcase size={24} /> </a></li>
-                                <li><a href="#skills"><FaTools size={24} /> </a></li>
+                                <li><a href="#services"><FaTools size={24} /> </a></li>
                                 <li><a href="#footer"><FaEnvelope size={24} /> </a></li>
                             </ul>
+                            <div className="language-switch">
+                                <label className="switch">
+                                    <input type="checkbox" checked={i18n.language === "es"} onChange={toggleLanguage} />
+                                    <span className="slider"></span>
+                                </label>
+                                <span className={`flag-icon ${i18n.language === "en" ? "flag-us" : "flag-ar"}`}></span>
+                            </div>
                         </aside>
                         <div className="hamburger" onClick={toggleNav}>
                             <span className={`bar ${navOpen ? "open" : ""}`}></span>
@@ -62,7 +69,7 @@ const Navbar = () => {
                             </div>
                             <li><a href="#about" onClick={toggleNav}>{t('about')}</a></li>
                             <li><a href="#experience" onClick={toggleNav}>{t('experience')}</a></li>
-                            <li><a href="#skills" onClick={toggleNav}>{t('skills')}</a></li>
+                            <li><a href="#services" onClick={toggleNav}>{t('skills')}</a></li>
                             <li><a href="#footer" onClick={toggleNav}>{t('contact')}</a></li>
                         </ul>                        
                     </nav>
