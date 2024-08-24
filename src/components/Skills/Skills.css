@@ -46,7 +46,7 @@
 
 @media (max-width: 480px) {
   .skills-section h2 {
-    margin-top: 15%;
+    margin-top: 5%;
     font-size: 2rem; /* Reducción del tamaño del texto del título */
   }
 

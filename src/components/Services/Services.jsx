@@ -28,12 +28,13 @@ const Services = () => {
             <div className="service-details">
               <h3>{t('serviceTitle2')}</h3>
             </div>
-            <FaCog className="service-icon" />
+            <FaUsers className="service-icon" />
           </div>
           <p>{t('serviceDescription2')}</p>
           <ul>
-            <li>{t('serviceFeature3')}</li>
+            {/* <li>{t('serviceFeature3')}</li> */}
             <li>{t('serviceFeature4')}</li>
+            <li>{t('serviceFeature6')}</li>
           </ul>
         </div>
         <div className="service-item">
@@ -41,12 +42,12 @@ const Services = () => {
             <div className="service-details">
               <h3>{t('serviceTitle3')}</h3>
             </div>
-            <FaUsers className="service-icon" />
+            <FaCog className="service-icon" />
           </div>
           <p>{t('serviceDescription3')}</p>
           <ul>
-            <li>{t('serviceFeature5')}</li>
-            <li>{t('serviceFeature6')}</li>
+            <li>{t('serviceFeature7')}</li>
+            <li>{t('serviceFeature8')}</li>
           </ul>
         </div>
       </div>

@@ -14,7 +14,9 @@ const Home = () => {
         <div className="home-container">           
             <Navbar />
             <HeroContent />
-            <About />
+            <LazyLoadComponent>
+                <About />
+            </LazyLoadComponent>
             <LazyLoadComponent>
                 <Experience />
             </LazyLoadComponent>

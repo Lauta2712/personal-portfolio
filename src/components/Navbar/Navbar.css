@@ -13,8 +13,21 @@
 }
 
 .hero-image img {
+  border: 1px solid #333;
+  background-color: #333;
   border-radius: 50%;
   max-width: 65px;
+}
+
+.initials h1 {
+  font-size: 4rem; 
+  margin: 0;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.highlight {
+  color: #00BFFF;
 }
 
 .navbar {
@@ -49,7 +62,6 @@
   color: #00BFFF;
 }
 
-/* Hamburger Menu */
 .hamburger {
   display: none;
   flex-direction: column;
@@ -78,7 +90,6 @@
   transform: rotate(-45deg) translate(5px, -5px);
 }
 
-/* Sidebar */
 .sidebar {
   display: flex;
   flex-direction: column;

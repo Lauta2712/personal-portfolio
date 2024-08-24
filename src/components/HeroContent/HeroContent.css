@@ -1,69 +1,93 @@
 .hero-section {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-content: center;
     align-items: center;
-    flex-grow: 1;
-    padding: 50px;
+    padding: 5vw 2vw; 
+    background: none;
+    color: #ffffff;
+    text-align: center;
+    height: 100vh; 
+}
+
+.hero-header{
+    display: flex;
+}
+
+.hero-content {
+    max-width: 80%;
+    margin: 0 auto;
 }
 
 .hero-content h1 {
-    font-size: 48px;
+    font-size: 4rem; 
     margin: 0;
+    font-weight: 700;
+    line-height: 1.2;
 }
 
 .highlight {
     color: #00BFFF;
 }
 
+.icon-container {
+    align-self: center;
+    margin-left: 1rem; 
+}
+
+.icon {
+    height: auto; 
+    width: 250px;
+    object-fit: cover;
+    /* filter: grayscale(100%) contrast(200%) brightness(0%); */
+    /* background-color: transparent; */
+    /* clip-path: circle(50% at 50% 50%); */
+}
+
 .hero-content h2 {
-    font-size: 24px;
-    margin: 20px 0;
+    font-size: 2rem;
+    margin: 2rem 0 0;
+    font-weight: 400;
+    color: #dcdcdc;
 }
 
-.contact-button {
-    background-color: #00BFFF;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s;
+.scroll-icon {
+    margin-top: 2rem;
+    animation: bounce 2s infinite;
 }
 
-.contact-button:hover {
-    background-color: #d44129;
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
 }
 
 @media (max-width: 768px) {
-    .hero-section {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        padding: 20px;
-    }
-
     .hero-content h1 {
-        font-size: 36px;
+        font-size: 3rem;
     }
 
     .hero-content h2 {
-        font-size: 20px;
-    }
-
-    .contact-button {
-        margin-top: 20px;
+        font-size: 1.5rem;
     }
 }
 
 @media (max-width: 480px) {
+    .hero-section {
+        padding: 8vw 4vw; 
+    }
+
     .hero-content h1 {
-        font-size: 28px;
+        font-size: 2.5rem;
     }
 
     .hero-content h2 {
-        font-size: 18px;
-    }
-
-    .hero-section {
-        padding: 15px;
+        font-size: 1.2rem;
     }
 }

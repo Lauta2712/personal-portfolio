@@ -18,7 +18,10 @@ i18n
           
           // About
           "about": "About",
-          "aboutDescription": "Full Stack Developer with over 1 year of experience. Knowledgeable in agile methodologies (SCRUM), GIT, HTML, CSS, JavaScript, Bootstrap, React.js, Redux, Node.js, Express, SQL, Sequelize, Entity Framework, C#, .NET, SQL Server, Material UI, KendoUI. Experienced in custom software development, dashboards, plugins, API design, database modifications, which allowed me to develop skills such as adaptability, creativity, critical thinking, among others. English level: C1.",
+          "aboutDescriptionPart1": "I am a Full Stack Developer with over 1 year of experience in various technologies and methodologies. I have a strong background in agile methodologies, version control with GIT, and a diverse set of web development technologies including HTML, CSS, JavaScript, React, Redux, Node.js, and more.",
+          "aboutDescriptionPart2": "My experience includes developing custom software solutions, designing and implementing user interfaces, and optimizing web applications. I am passionate about creating efficient, scalable, and user-friendly applications that meet the needs of clients and users alike.",
+          "aboutDescriptionPart3": "I continuously strive to expand my knowledge and skills by staying up-to-date with the latest industry trends and best practices. I believe in the power of technology to solve complex problems and enhance user experiences.",
+          "aboutHobbies": "Outside of work, I enjoy trail running, playing guitar, and exploring new music. These hobbies help me stay balanced and inspired, fueling my creativity and problem-solving skills.",
           
           // Experience
           "experience": "Experience",
@@ -55,18 +58,23 @@ i18n
 
           // Services
           "services": "Services",
-          "serviceTitle1": "Custom Web Development",
-          "serviceDescription1": "Building custom web applications tailored to your needs using modern technologies and best practices.",
-          "serviceFeature1": "Modern technologies",
-          "serviceFeature2": "Best practices",
-          "serviceTitle2": "Responsive Design",
-          "serviceDescription2": "Creating responsive and mobile-friendly designs that look great on all devices.",
-          "serviceFeature3": "Mobile-friendly",
-          "serviceFeature4": "Cross-device compatibility",
-          "serviceTitle3": "API Integration",
-          "serviceDescription3": "Integrating third-party APIs and creating custom APIs to enhance your application's functionality.",
-          "serviceFeature5": "Third-party APIs",
-          "serviceFeature6": "Custom API development"
+          "serviceTitle1": "Web Development & Design",
+          "serviceDescription1": "Offering a comprehensive web development service that includes custom web applications, responsive design, and API integrations tailored to your needs.",
+          "serviceFeature1": "Custom web applications",
+          "serviceFeature2": "Responsive design",
+          "serviceFeature3": "API integration",
+                    
+          "serviceTitle2": "Social Media Management",
+          "serviceDescription2": "Managing your social media presence to enhance engagement, grow your audience, and create impactful campaigns.",
+          "serviceFeature4": "Content creation",
+          "serviceFeature5": "Audience engagement",
+          "serviceFeature6": "Campaign management",
+                    
+          "serviceTitle3": "Software Development",
+          "serviceDescription3": "Providing creative and professional software development services.",
+          "serviceFeature7": "Software design",
+          "serviceFeature8": "Innovative solutions",
+          "serviceFeature9": "Marketing materials"
         }
       },
       es: {
@@ -78,8 +86,10 @@ i18n
           
           // About
           "about": "Acerca de",
-          "aboutDescription": "Desarrollador Full Stack con más de 1 año de experiencia. Con conocimientos en metodologías ágiles (SCRUM), GIT, HTML, CSS, JavaScript, Bootstrap, React.js, Redux, Node.js, Express, SQL, Sequelize, Entity Framework, C#, .NET, SQL Server, Material UI, KendoUI. Experiencia en desarrollo de software a medida, dashboards, plugins, diseño de APIs, modificaciones de base de datos, que me permitió desarrollar habilidades como adaptabilidad, creatividad, pensamiento crítico, entre otras. Nivel de inglés: C1.",
-          
+          "aboutDescriptionPart1": "Soy un Desarrollador Full Stack con más de 1 año de experiencia en diversas tecnologías y metodologías. Tengo una sólida formación en metodologías ágiles, control de versiones con GIT y un conjunto diverso de tecnologías de desarrollo web, incluyendo HTML, CSS, JavaScript, React, Redux, Node.js y más.",
+          "aboutDescriptionPart2": "Mi experiencia incluye el desarrollo de soluciones de software personalizadas, el diseño e implementación de interfaces de usuario y la optimización de aplicaciones web. Me apasiona crear aplicaciones eficientes, escalables y amigables con el usuario que satisfagan las necesidades de clientes y usuarios por igual.",
+          "aboutDescriptionPart3": "Continuamente me esfuerzo por expandir mis conocimientos y habilidades manteniéndome al tanto de las últimas tendencias de la industria y mejores prácticas. Creo en el poder de la tecnología para resolver problemas complejos y mejorar las experiencias de los usuarios.",
+          "aboutHobbies": "Fuera del trabajo, disfruto del trail running, tocar la guitarra y explorar nueva música. Estos pasatiempos me ayudan a mantenerme equilibrado e inspirado, alimentando mi creatividad y habilidades para resolver problemas.",
           //Navbar
           "skills": "Habilidades",
           "contact":"Contacto",
@@ -117,20 +127,25 @@ i18n
           //Footer
           "download cv":"Descargar CV",
 
-          // Services
+          // Servicios
           "services": "Servicios",
-          "serviceTitle1": "Desarrollo Web Personalizado",
-          "serviceDescription1": "Desarrollo de aplicaciones web personalizadas adaptadas a tus necesidades utilizando tecnologías modernas y mejores prácticas.",
-          "serviceFeature1": "Tecnologías modernas",
-          "serviceFeature2": "Mejores prácticas",
-          "serviceTitle2": "Diseño Responsivo",
-          "serviceDescription2": "Creación de diseños responsivos y amigables con dispositivos móviles que se ven bien en todos los dispositivos.",
-          "serviceFeature3": "Amigable con móviles",
-          "serviceFeature4": "Compatibilidad en dispositivos",
-          "serviceTitle3": "Integración de APIs",
-          "serviceDescription3": "Integración de APIs de terceros y creación de APIs personalizadas para mejorar la funcionalidad de tu aplicación.",
-          "serviceFeature5": "APIs de terceros",
-          "serviceFeature6": "Desarrollo de APIs personalizadas"
+          "serviceTitle1": "Desarrollo y Diseño Web",
+          "serviceDescription1": "Ofrecemos un servicio integral de desarrollo web que incluye aplicaciones web personalizadas, diseño responsivo e integración de APIs adaptadas a tus necesidades.",
+          "serviceFeature1": "Aplicaciones web personalizadas",
+          "serviceFeature2": "Diseño responsivo",
+          "serviceFeature3": "Integración de APIs",
+          
+          "serviceTitle2": "Gestión de Redes Sociales",
+          "serviceDescription2": "Gestionamos tu presencia en redes sociales para aumentar la interacción, hacer crecer tu audiencia y crear campañas impactantes.",
+          "serviceFeature4": "Creación de contenido",
+          "serviceFeature5": "Interacción con la audiencia",
+          "serviceFeature6": "Gestión de campañas",
+          
+          "serviceTitle3": "Diseño Gráfico",
+          "serviceDescription3": "Ofrecemos servicios creativos y profesionales de diseño gráfico, incluyendo logos, branding y materiales de marketing.",
+          "serviceFeature7": "Diseño de logos",
+          "serviceFeature8": "Identidad de marca",
+          "serviceFeature9": "Materiales de marketing"
         }
       }
     },

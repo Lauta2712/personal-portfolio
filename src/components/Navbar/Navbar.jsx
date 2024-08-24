@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Navbar.css";
-import profileImage from "../../img/Lautaro.jpeg";
+import profileImage from "../../img/Lautaro-Photoroom.png";
 import { FaUser, FaTools, FaBriefcase, FaEnvelope } from "react-icons/fa";
 import { useTranslation } from 'react-i18next';  
 
@@ -32,6 +32,7 @@ const Navbar = () => {
             <div className="navbar-container">
                 <div className="hero-image">
                     <img src={profileImage} alt="Profile" className="profile-img" />
+                    {/* <h1 className="initials"><span className="highlight">LR</span></h1> */}
                 </div>
                 {isMobile ? (
                     <>

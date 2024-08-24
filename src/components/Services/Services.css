@@ -87,10 +87,14 @@
   text-align: justify;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .service-item {
     display: flex;
     justify-content: space-between;
+  }
+
+  .services-container {
+    grid-template-columns: 1fr;
   }
 
   .service-header {
@@ -111,6 +115,10 @@
 }
 
 @media (max-width: 480px) {
+    .services-section{
+      margin-top: 15%;
+    }
+
     .services-container {
       grid-template-columns: 1fr;
     }
