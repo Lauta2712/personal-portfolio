@@ -32,6 +32,7 @@
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  position: relative;
 }
 
 .skills-list li svg {
@@ -44,23 +45,43 @@
   color: #121212;
 }
 
+.skill-name {
+  position: absolute;
+  top: 100%; 
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  white-space: nowrap;
+  z-index: 10;
+  font-size: 0.8em; 
+  margin-top: 5px; 
+}
+
 @media (max-width: 480px) {
   .skills-section h2 {
     margin-top: 5%;
-    font-size: 2rem; /* Reducción del tamaño del texto del título */
+    font-size: 2rem;
   }
 
   .skills-list {
-    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr)); /* Reducir el tamaño mínimo de las columnas */
-    gap: 10px; /* Reducir el espacio entre ítems */
+    grid-template-columns: repeat(auto-fit, minmax(90px, 1fr)); 
+    gap: 15px;
   }
 
   .skills-list li {
-    font-size: 1em; /* Reducir el tamaño de la fuente */
-    padding: 10px; /* Reducir el padding para una mejor adaptación en pantallas pequeñas */
+    font-size: 1.1em;
+    padding: 12px;
   }
 
   .skills-list li svg {
-    font-size: 1.2em; /* Reducir el tamaño de los íconos */
+    font-size: 1.3em; 
+  }
+
+  .skill-name {
+    font-size: 0.9em; 
+    padding: 4px 8px;
   }
 }
