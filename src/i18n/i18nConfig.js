@@ -20,7 +20,7 @@ i18n
           "about": "About",
           "aboutDescriptionPart1": "I am a Full Stack Developer with over 1 year of experience in various technologies and methodologies. I have a strong background in agile methodologies, version control with GIT, and a diverse set of web development technologies including HTML, CSS, JavaScript, React, Redux, Node.js, and more.",
           "aboutDescriptionPart2": "My experience includes developing custom software solutions, designing and implementing user interfaces, and optimizing web applications. I am passionate about creating efficient, scalable, and user-friendly applications that meet the needs of clients and users alike.",
-          "aboutDescriptionPart3": "I continuously strive to expand my knowledge and skills by staying up-to-date with the latest industry trends and best practices. I believe in the power of technology to solve complex problems and enhance user experiences.",
+          "aboutDescriptionPart3": "I continuously strive to expand my knowledge and skills by staying up-to-date with the latest industry trends and best practices.",
           "aboutHobbies": "Outside of work, I enjoy trail running, playing guitar, and exploring new music. These hobbies help me stay balanced and inspired, fueling my creativity and problem-solving skills.",
           
           // Experience
@@ -88,7 +88,7 @@ i18n
           "about": "Acerca de",
           "aboutDescriptionPart1": "Soy un Desarrollador Full Stack con más de 1 año de experiencia en diversas tecnologías y metodologías. Tengo una sólida formación en metodologías ágiles, control de versiones con GIT y un conjunto diverso de tecnologías de desarrollo web, incluyendo HTML, CSS, JavaScript, React, Redux, Node.js y más.",
           "aboutDescriptionPart2": "Mi experiencia incluye el desarrollo de soluciones de software personalizadas, el diseño e implementación de interfaces de usuario y la optimización de aplicaciones web. Me apasiona crear aplicaciones eficientes, escalables y amigables con el usuario que satisfagan las necesidades de clientes y usuarios por igual.",
-          "aboutDescriptionPart3": "Continuamente me esfuerzo por expandir mis conocimientos y habilidades manteniéndome al tanto de las últimas tendencias de la industria y mejores prácticas. Creo en el poder de la tecnología para resolver problemas complejos y mejorar las experiencias de los usuarios.",
+          "aboutDescriptionPart3": "Continuamente me esfuerzo por expandir mis conocimientos y habilidades manteniéndome al tanto de las últimas tendencias de la industria y mejores prácticas.",
           "aboutHobbies": "Fuera del trabajo, disfruto del trail running, tocar la guitarra y explorar nueva música. Estos pasatiempos me ayudan a mantenerme equilibrado e inspirado, alimentando mi creatividad y habilidades para resolver problemas.",
           //Navbar
           "skills": "Habilidades",
@@ -130,22 +130,22 @@ i18n
           // Servicios
           "services": "Servicios",
           "serviceTitle1": "Desarrollo y Diseño Web",
-          "serviceDescription1": "Ofrecemos un servicio integral de desarrollo web que incluye aplicaciones web personalizadas, diseño responsivo e integración de APIs adaptadas a tus necesidades.",
+          "serviceDescription1": "Ofrezco un servicio integral de desarrollo web que incluye aplicaciones web personalizadas, diseño responsivo e integración de APIs adaptadas a tus necesidades.",
           "serviceFeature1": "Aplicaciones web personalizadas",
           "serviceFeature2": "Diseño responsivo",
           "serviceFeature3": "Integración de APIs",
           
           "serviceTitle2": "Gestión de Redes Sociales",
-          "serviceDescription2": "Gestionamos tu presencia en redes sociales para aumentar la interacción, hacer crecer tu audiencia y crear campañas impactantes.",
+          "serviceDescription2": "Gestiono tu presencia en redes sociales para aumentar la interacción, hacer crecer tu audiencia y crear campañas impactantes.",
           "serviceFeature4": "Creación de contenido",
           "serviceFeature5": "Interacción con la audiencia",
           "serviceFeature6": "Gestión de campañas",
           
-          "serviceTitle3": "Diseño Gráfico",
-          "serviceDescription3": "Ofrecemos servicios creativos y profesionales de diseño gráfico, incluyendo logos, branding y materiales de marketing.",
-          "serviceFeature7": "Diseño de logos",
-          "serviceFeature8": "Identidad de marca",
-          "serviceFeature9": "Materiales de marketing"
+          "serviceTitle3": "Desarrollo de Software",
+          "serviceDescription3": "Servicios de desarrollo de software profesionales y creativos.",
+          "serviceFeature7": "Diseño de Software",
+          "serviceFeature8": "Soluciones innovadoras",
+          "serviceFeature9": " "
         }
       }
     },
