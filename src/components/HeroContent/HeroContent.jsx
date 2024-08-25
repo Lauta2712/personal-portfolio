@@ -1,7 +1,6 @@
 import React from "react";
 import "./HeroContent.css";
 import { useTranslation } from 'react-i18next';
-import icon from "../../img/programadorCaricatura1. 47040 (1)-Photoroom.png"; 
 
 const HeroContent = () => {
     const { t } = useTranslation();
