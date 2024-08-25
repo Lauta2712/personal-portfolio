@@ -11,6 +11,7 @@ const Experience = () => {
       <h2>{t('experience')}</h2>
       
       <div className="experience-container">
+        
         <div className="experience-item">
           <div className="experience-header">
             <FaCode className="experience-icon" />

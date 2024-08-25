@@ -139,14 +139,14 @@
     }
   
     .service-item h3 {
-      font-size: 1em;
+      font-size: 1rem;
     }
   
     .service-item p {
-      font-size: 0.8em;
+      font-size: 0.6rem;
     }
   
     .service-item li {
-      font-size: 0.5em;
+      font-size: 0.5rem;
     }
   }

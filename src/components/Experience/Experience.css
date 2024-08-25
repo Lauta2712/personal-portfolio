@@ -95,10 +95,6 @@
 }
 
 @media (min-width: 768px) and (max-width: 1020px) {
-  /* .experience-container {
-    grid-template-columns: 1fr;
-    width: 95%; 
-  } */
   .experience-item {
     max-width: 600px;
     margin: 0 auto 40px auto;
@@ -122,18 +118,21 @@
 @media (max-width: 768px){
   .experience-container {
     grid-template-columns: 1fr;
-    /* width: 95%;  */
   }
+
   .experience-section h2 {
     font-size: 1.5rem;
   }
+
   .experience-details h3 {
     font-size: 1rem;
   }
+  
   .experience-details p,
   .experience-date p {
     font-size: 0.8rem;
   }
+
   .experience-description li {
     font-size: 0.8rem;
   }
@@ -142,19 +141,27 @@
 @media (max-width: 480px) {
   .experience-container {
     grid-template-columns: 1fr;
-    width: 95%; 
+    max-width: 93%; 
   }
+
+  /* .experience-item{
+    max-width: 95%;
+  } */
+
   .experience-section h2 {
     font-size: 1.5rem;
   }
+  
   .experience-details h3 {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
+  
   .experience-details p,
   .experience-date p {
-    font-size: 0.8rem;
+    font-size: 0.5rem;
   }
+  
   .experience-description li {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
   }
 }
