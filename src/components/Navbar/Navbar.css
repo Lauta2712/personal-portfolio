@@ -94,11 +94,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center; 
   position: fixed;
   top: 0;
   right: 0;
   width: 15vw; 
-  height: 80%;
+  height: 65vh;
   background-color: #333;
   color: #fff;
   transition: transform 0.3s ease;
@@ -112,7 +113,7 @@
 
 .sidebar.open {
   transform: translateX(0); 
-  height: 70vh;
+  height: 65vh;
   border-radius: 5px;
 }
 
@@ -123,12 +124,20 @@
   height: 90vh;
 } */
 
-.sidebar ul{
-  margin-right: 50%;
+.sidebar ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%; 
 }
+
 .sidebar li {
   list-style: none;
-  margin: 15px 0;
+  margin: 0.8rem 0;
 }
 
 .sidebar a {
