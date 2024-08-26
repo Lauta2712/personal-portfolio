@@ -8,11 +8,11 @@ const HeroContent = () => {
     return (
         <main id="hero" className="hero-section">
             <div className="hero-content">
-                    <h1>{t('greeting')} <span className="highlight">{t('name')}</span></h1>
-                    {/* <div className="icon-container">
-                        <img src={icon} alt="Programador caricatura" className="icon" />
-                    </div> */}
+                <h1>{t('greeting')} <span className="highlight">{t('name')}</span></h1>
                 <h2>{t('profession')}</h2>
+                <a href="/docs/Lautaro_Rodriguez_CV.pdf" className="pdf" download>
+                    <button>{t('download cv')}</button>
+                </a>
                 <div className="scroll-icon">
                     <svg width="30" height="30" fill="none" stroke="#00BFFF" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
                         <line x1="12" y1="5" x2="12" y2="19"/>

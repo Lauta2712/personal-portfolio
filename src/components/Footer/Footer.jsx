@@ -21,12 +21,6 @@ const Footer = () => {
             <a href="https://instagram.com/lauta_rodriguez01/" target="_blank" rel="noopener noreferrer">
                 <img src={Instagram} alt="Instagram" />
             </a>
-            {/* <a href="mailto:lautarorodriguez887@gmail.com?subject=Contacto%20desde%20tu%20portafolio&body=Hola%20Lautaro,%20me%20gustar%C3%ADa%20ponerme%20en%20contacto%20contigo.">
-                <img src={Gmail} alt="Gmail" />
-            </a> */}
-            <a href="/docs/Lautaro_Rodriguez_CV.pdf" className="pdf" download>
-                <button>{t('download cv')}</button>
-            </a>
         </footer>
     );
 }

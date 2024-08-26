@@ -56,6 +56,23 @@
     animation: bounce 2s infinite;
 }
 
+.pdf button {
+    margin-top: 1%;
+    cursor: pointer;
+    color: #00BFFF;
+    background-color: #1e1e1e;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 0.7rem;
+    font-weight: 760;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+.pdf button:hover {
+    color: #1e1e1e;
+    background-color: #00BFFF; 
+}
+
 @keyframes bounce {
     0%, 20%, 50%, 80%, 100% {
         transform: translateY(0);
