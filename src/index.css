@@ -18,11 +18,11 @@ code {
 }
 
 ::-webkit-scrollbar {
-  width: 2px; 
+  width: 1px; 
 }
 
 ::-webkit-scrollbar-thumb {
   background-color: #00BFFF;
   border-radius: 10px; 
-  border: 2px solid transparent;
+  border: 1px solid transparent;
 }
