@@ -19,7 +19,7 @@
 .experience-item {
   background-color: #1e1e1e; 
   padding: 20px;
-  width: 95%;
+  width: 100%;
   border-radius: 8px;
   margin-bottom: 40px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -96,12 +96,7 @@
 
 @media (min-width: 768px) and (max-width: 1020px) {
   .experience-item {
-    max-width: 600px;
     margin: 0 auto 40px auto;
-  }
-
-  .experience-item {
-    width: 85%;
   }
 
   .experience-item h3{
@@ -141,7 +136,6 @@
 @media (max-width: 480px) {
   .experience-container {
     grid-template-columns: 1fr;
-    max-width: 93%; 
   }
 
   .experience-section h2 {
