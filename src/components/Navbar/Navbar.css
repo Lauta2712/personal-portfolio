@@ -1,4 +1,3 @@
-/* Navbar Container */
 .navbar-container {
   display: flex;
   justify-content: space-between;
@@ -202,7 +201,6 @@ input:checked + .slider:before {
   transform: translateX(14px);
 }
 
-/* Add this part to show the flag icons */
 .flag-icon {
   width: 28px;
   height: 28px;
@@ -220,7 +218,6 @@ input:checked + .slider:before {
 @media (max-width: 480px) {
   .hamburger {
     display: flex;
-    margin-right: 30px; 
   }
 
   .navbar {

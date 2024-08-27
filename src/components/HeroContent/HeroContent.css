@@ -1,8 +1,8 @@
 .hero-section {
-    display: flex; /* Cambia a flex */
-    flex-direction: column; /* Coloca los elementos en una columna */
-    justify-content: center; /* Centra verticalmente */
-    align-items: center; /* Centra horizontalmente */
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding-top: 12%;
     background: none;
     color: #ffffff;
@@ -12,7 +12,7 @@
 
 .hero-content {
     max-width: 80%;
-    margin: 0 auto; /* Esto ya está, sigue manteniéndolo */
+    margin: 0 auto; 
 }
 
 .hero-content h1 {
@@ -90,7 +90,7 @@
 
 @media (max-width: 480px) {
     .hero-section {
-        padding: 8vw 4vw; 
+        padding-top: 30%;
     }
 
     .hero-content h1 {

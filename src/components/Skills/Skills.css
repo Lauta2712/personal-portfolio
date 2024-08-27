@@ -1,13 +1,13 @@
 .skills-section {
-  padding: 20px;
-  background-color: #121212;
-  text-align: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  text-align: center;
   justify-content: center;
+  align-items: center;
+  background-color: #121212;
   min-height: 100vh; 
-  margin: 0 auto; /* Asegura que esté centrado */
+  margin: 0 auto;
+  padding: 1%;
 }
 
 .skills-section h2 {
@@ -76,6 +76,7 @@
 
   .skills-list {
     grid-template-columns: repeat(auto-fit, minmax(80px, 1fr)); 
+    max-width: 85vw;
     gap: 10px;
   }
 
