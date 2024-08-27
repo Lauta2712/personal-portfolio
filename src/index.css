@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;700&display=swap');
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #121212;
   margin: 0;
@@ -23,6 +27,6 @@ code {
 
 ::-webkit-scrollbar-thumb {
   background-color: #00BFFF;
-  border-radius: 10px; 
   border: 1px solid transparent;
+  border-radius: 10px; 
 }
