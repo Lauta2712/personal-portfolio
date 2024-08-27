@@ -1,7 +1,10 @@
 .about-section {
-  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
   text-align: center;
-  /* background-color: #1a1a1a;  */
   color: #fff; 
 }
 
@@ -14,16 +17,19 @@
 .about-content {
   max-width: 800px;
   margin: 0 auto;
+  text-align: justify;
 }
 
 .about-content p {
   font-size: 1em;
   line-height: 1.6;
   margin: 0 0 1% 0; 
-  text-align: justify;
 }
 
 .scroll-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 2rem;
   animation: bounce 2s infinite;
 }
@@ -40,11 +46,22 @@
   }
 }
 
+@media (max-width: 768px) {
+  .about-section h2 {
+    font-size: 1.8rem;
+  }
+
+  .about-content p {
+    font-size: 0.9rem;
+  }
+}
+
 @media (max-width: 480px) {
   .about-section h2 {
     font-size: 1.5rem;
   }
+
   .about-content p {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
   }
 }

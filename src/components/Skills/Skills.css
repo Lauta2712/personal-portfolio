@@ -1,11 +1,17 @@
 .skills-section {
-  padding: 60px 20px;
+  padding: 20px;
   background-color: #121212;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; 
+  margin: 0 auto; /* Asegura que esté centrado */
 }
 
 .skills-section h2 {
-  font-size: 2.5em;
+  font-size: 2em; 
   color: #00BFFF;
   margin-bottom: 20px;
 }
@@ -13,30 +19,33 @@
 .skills-list {
   display: grid;
   justify-content: center;
+  align-items: center;
   list-style: none;
-  padding: 0;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 15px; 
+  width: 100%;
+  margin: 0 auto;
 }
 
 .skills-list li {
-  font-size: 1.2em;
+  font-size: 1.1rem;
   color: #fff;
   background-color: #1e1e1e;
-  margin: 10px;
-  padding: 15px;
-  border-radius: 8px;
-  transition: transform 0.3s ease, background-color 0.3s ease;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100px;
+  height: 100px; 
   display: flex;
   align-items: center;
   justify-content: center;
+  margin: 10px;
+  border-radius: 8px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   position: relative;
 }
 
 .skills-list li svg {
-  font-size: 1.5em;
+  font-size: 1.8em; 
 }
 
 .skills-list li:hover {
@@ -62,26 +71,27 @@
 
 @media (max-width: 480px) {
   .skills-section h2 {
-    margin-top: 5%;
-    font-size: 2rem;
+    font-size: 1.2rem; 
   }
 
   .skills-list {
-    grid-template-columns: repeat(auto-fit, minmax(90px, 1fr)); 
-    gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr)); 
+    gap: 10px;
   }
 
   .skills-list li {
-    font-size: 1.1em;
-    padding: 12px;
+    width: 80px; 
+    height: 80px;
+    font-size: 1rem;
+    padding: 10px;
   }
 
   .skills-list li svg {
-    font-size: 1.3em; 
+    font-size: 1.2em; 
   }
 
   .skill-name {
-    font-size: 0.9em; 
+    font-size: 0.8em; 
     padding: 4px 8px;
   }
 }

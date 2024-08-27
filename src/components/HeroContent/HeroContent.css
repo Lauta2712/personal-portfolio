@@ -1,8 +1,8 @@
 .hero-section {
-    display: grid;
-    grid-template-rows: 1fr;
-    justify-content: center;
-    align-items: center;
+    display: flex; /* Cambia a flex */
+    flex-direction: column; /* Coloca los elementos en una columna */
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
     padding-top: 12%;
     background: none;
     color: #ffffff;
@@ -10,13 +10,9 @@
     height: 100vh; 
 }
 
-.hero-header{
-    display: flex;
-}
-
 .hero-content {
     max-width: 80%;
-    margin: 0 auto;
+    margin: 0 auto; /* Esto ya está, sigue manteniéndolo */
 }
 
 .hero-content h1 {
@@ -39,9 +35,6 @@
     height: auto; 
     width: 250px;
     object-fit: cover;
-    /* filter: grayscale(100%) contrast(200%) brightness(0%); */
-    /* background-color: transparent; */
-    /* clip-path: circle(50% at 50% 50%); */
 }
 
 .hero-content h2 {
@@ -66,8 +59,8 @@
     padding: 0.7rem;
     font-weight: 760;
     transition: background-color 0.3s ease, color 0.3s ease;
-  }
-  
+}
+
 .pdf button:hover {
     color: #1e1e1e;
     background-color: #00BFFF; 

@@ -80,6 +80,8 @@
 
 .hamburger .bar.open {
   display: none;
+  color: transparent;
+  background-color: transparent;
 }
 
 .sidebar {
