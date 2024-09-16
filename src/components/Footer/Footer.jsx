@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
-import { FaLinkedin, FaGithub, FaInstagram, FaTwitter } from "react-icons/fa"; 
-
+import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa"; 
+import XLogo from "../../assets/X.png"; 
 
 const Footer = () => {
     return (
@@ -17,7 +17,7 @@ const Footer = () => {
                     <FaInstagram size={40} style={{ color: '#E4405F' }} />
                 </a>
                 <a href="https://x.com/lautarodriguezm" target="_blank" rel="noopener noreferrer">
-                    <FaTwitter size={40} style={{ color: '#1DA1F2' }} />
+                    <img src={XLogo} alt="X Logo" style={{ width: '40px', height: '38px' }} />
                 </a>
             </div>
         </footer>
