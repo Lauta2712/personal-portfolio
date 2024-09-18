@@ -58,17 +58,17 @@ i18n
 
           // Services
           "services": "Services",
-          "serviceTitle1": "Web Development & Design",
+          "serviceTitle1": "Web Development",
           "serviceDescription1": "Offering a comprehensive web development service that includes custom web applications, responsive design, and API integrations tailored to your needs.",
           "serviceFeature1": "Custom web applications",
           "serviceFeature2": "Responsive design",
           "serviceFeature3": "API integration",
                     
-          "serviceTitle2": "Social Media Management",
-          "serviceDescription2": "Managing your social media presence to enhance engagement, grow your audience, and create impactful campaigns.",
-          "serviceFeature4": "Content creation",
-          "serviceFeature5": "Audience engagement",
-          "serviceFeature6": "Campaign management",
+          "serviceTitle2": "UX/UI Design",
+          "serviceDescription2": "Designing user-centered interfaces and experiences to create intuitive, aesthetically pleasing digital products.",
+          "serviceFeature4": "User interface design",
+          "serviceFeature5": "User experience optimization",
+          "serviceFeature6": "Prototyping and wireframing",
                     
           "serviceTitle3": "Software Development",
           "serviceDescription3": "Providing creative and professional software development services.",
@@ -129,17 +129,17 @@ i18n
 
           // Servicios
           "services": "Servicios",
-          "serviceTitle1": "Desarrollo y Diseño Web",
+          "serviceTitle1": "Desarrollo Web",
           "serviceDescription1": "Ofrezco un servicio integral de desarrollo web que incluye aplicaciones web personalizadas, diseño responsivo e integración de APIs adaptadas a tus necesidades.",
           "serviceFeature1": "Aplicaciones web personalizadas",
           "serviceFeature2": "Diseño responsivo",
           "serviceFeature3": "Integración de APIs",
           
-          "serviceTitle2": "Gestión de Redes Sociales",
-          "serviceDescription2": "Gestiono tu presencia en redes sociales para aumentar la interacción, hacer crecer tu audiencia y crear campañas impactantes.",
-          "serviceFeature4": "Creación de contenido",
-          "serviceFeature5": "Interacción con la audiencia",
-          "serviceFeature6": "Gestión de campañas",
+          "serviceTitle2": "Diseño UX/UI",
+          "serviceDescription2": "Diseño de interfaces centradas en el usuario y experiencias para crear productos digitales intuitivos y estéticamente atractivos.",
+          "serviceFeature4": "Diseño de interfaz de usuario",
+          "serviceFeature5": "Optimización de experiencia de usuario",
+          "serviceFeature6": "Prototipos y wireframes",
           
           "serviceTitle3": "Desarrollo de Software",
           "serviceDescription3": "Servicios de desarrollo de software profesionales y creativos.",
