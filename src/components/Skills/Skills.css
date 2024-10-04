@@ -6,7 +6,6 @@
   align-items: center;
   background-color: #121212;
   min-height: 100vh; 
-  margin: 0 auto;
   padding: 1%;
 }
 
@@ -21,10 +20,9 @@
   justify-content: center;
   align-items: center;
   list-style: none;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
   gap: 15px; 
   width: 100%;
-  margin: 0 auto;
 }
 
 .skills-list li {
@@ -36,7 +34,6 @@
   display: flex;
   align-items: center;  
   justify-content: center; 
-  margin: 10px;
   border-radius: 8px;
   transition: transform 0.3s ease, background-color 0.3s ease;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -79,7 +76,6 @@
 
   .skills-list {
     grid-template-columns: repeat(auto-fit, minmax(80px, 1fr)); 
-    max-width: 85vw;
     gap: 10px;
   }
 
