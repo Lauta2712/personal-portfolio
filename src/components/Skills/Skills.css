@@ -39,6 +39,7 @@
   transition: transform 0.4s ease, box-shadow 0.4s ease;
   perspective: 1000px; 
   cursor: pointer;
+  position: relative; 
 }
 
 .skills-list li:hover {
@@ -54,7 +55,7 @@
 
 .skill-name {
   position: absolute;
-  top: 100%;
+  top: 90%; 
   left: 50%;
   transform: translateX(-50%);
   background-color: rgba(0, 0, 0, 0.8);
@@ -74,7 +75,7 @@
 
   .skills-list {
     grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
-    gap: 15px;
+    gap: 20px;
   }
 
   .skills-list li {
@@ -99,7 +100,7 @@
   }
 
   .skills-list {
-    grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
     gap: 10px;
   }
 
