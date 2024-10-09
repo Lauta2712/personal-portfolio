@@ -105,13 +105,13 @@
   }
 
   .skills-list li {
-    width: 70px;
-    height: 70px;
-    font-size: 0.9rem;
+    width: 60px;
+    height: 60px;
+    font-size: 0.8rem;
   }
 
   .skills-list li svg {
-    font-size: 1.2em;
+    font-size: 1em;
   }
 
   .skill-name {
