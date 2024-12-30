@@ -13,10 +13,10 @@ const ContactForm = () => {
 
     emailjs
       .sendForm(
-        'service_r5oo4ly', //  Service ID de EmailJS
-        'template_n89eit9', //  Template ID de EmailJS
+        process.env.REACT_APP_EMAILJS_SERVICE_ID, // Service ID
+        process.env.REACT_APP_EMAILJS_TEMPLATE_ID, // Template ID
         form.current,
-        'hWetdB06KAbz69LF1' //  Public Key de EmailJS
+        process.env.REACT_APP_EMAILJS_PUBLIC_KEY // Public Key
       )
       .then(
         (result) => {
