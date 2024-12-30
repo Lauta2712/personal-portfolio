@@ -74,7 +74,21 @@ i18n
           "serviceDescription3": "Providing creative and professional software development services.",
           "serviceFeature7": "Software design",
           "serviceFeature8": "Innovative solutions",
-          "serviceFeature9": "Marketing materials"
+          "serviceFeature9": "Marketing materials",
+          
+          //FORM
+          "form": {
+            "title": "Contact Me",
+            "nameLabel": "Name",
+            "namePlaceholder": "Your name",
+            "emailLabel": "Email Address",
+            "emailPlaceholder": "Your email",
+            "messageLabel": "Message",
+            "messagePlaceholder": "Write your message here",
+            "button": "Send",
+            "successMessage": "Message sent successfully!",
+            "errorMessage": "There was an error sending the message."
+          },
         }
       },
       es: {
@@ -145,7 +159,21 @@ i18n
           "serviceDescription3": "Servicios de desarrollo de software profesionales y creativos.",
           "serviceFeature7": "Diseño de Software",
           "serviceFeature8": "Soluciones innovadoras",
-          "serviceFeature9": " "
+          "serviceFeature9": " ",
+
+          //FORM
+          "form": {
+            "title": "Contactame",
+            "nameLabel": "Nombre",
+            "namePlaceholder": "Tu nombre",
+            "emailLabel": "Correo Electrónico",
+            "emailPlaceholder": "Tu correo electrónico",
+            "messageLabel": "Mensaje",
+            "messagePlaceholder": "Escribe tu mensaje aquí",
+            "button": "Enviar",
+            "successMessage": "¡Mensaje enviado exitosamente!",
+            "errorMessage": "Hubo un error al enviar el mensaje."
+          }
         }
       }
     },

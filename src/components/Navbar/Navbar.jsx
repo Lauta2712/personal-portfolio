@@ -42,7 +42,7 @@ const Navbar = () => {
                                 <li><a href="#hero"><FaUser size={24} /> </a></li>
                                 <li><a href="#experience"><FaBriefcase size={24} /> </a></li>
                                 <li><a href="#services"><FaTools size={24} /> </a></li>
-                                <li><a href="#footer"><FaEnvelope size={24} /> </a></li>
+                                <li><a href="#contact"><FaEnvelope size={24} /> </a></li>
                             </ul>
                             <div className="language-switch">
                                 <label className="switch">
@@ -71,7 +71,7 @@ const Navbar = () => {
                             <li><a href="#about" onClick={toggleNav}>{t('about')}</a></li>
                             <li><a href="#experience" onClick={toggleNav}>{t('experience')}</a></li>
                             <li><a href="#services" onClick={toggleNav}>{t('skills')}</a></li>
-                            <li><a href="#footer" onClick={toggleNav}>{t('contact')}</a></li>
+                            <li><a href="#contact" onClick={toggleNav}>{t('contact')}</a></li>
                         </ul>                        
                     </nav>
                 )}

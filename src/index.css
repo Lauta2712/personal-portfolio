@@ -30,6 +30,11 @@ a {
   text-decoration: none; 
 }
 
+::selection {
+  background-color: #00BFFF;
+  color: #121212;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
