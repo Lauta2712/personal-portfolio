@@ -4,7 +4,7 @@ import emailjs from 'emailjs-com';
 import './ContactForm.css'; 
 
 const ContactForm = () => {
-    const { t } = useTranslation(); 
+  const { t } = useTranslation(); 
   const form = useRef();
   const [status, setStatus] = useState('');
 
@@ -35,11 +35,11 @@ const ContactForm = () => {
     <div id="contact" className="contact-form-container">
       <h2>{t('form.title')}</h2>
       <form ref={form} onSubmit={sendEmail}>
-        <label htmlFor="name">{t('form.nameLabel')}</label>
+        <label htmlFor="from_name">{t('form.nameLabel')}</label>
         <input
           type="text"
-          id="name"
-          name="user_name"
+          id="from_name"
+          name="from_name" 
           placeholder={t('form.namePlaceholder')}
           required
         />
