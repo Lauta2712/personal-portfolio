@@ -54,7 +54,7 @@ i18n
           "databaseTech": "Database: PostgreSQL, Sequelize.",
           
           "jobTitle5": "Full Stack Developer",
-          "company5": "CONEQ",
+          "company5": "Coneq",
           "date5": "December 2024 - Present",
           "responsibility12": "Developing and optimizing software solutions for the construction industry.",
           "responsibility13": "Collaborating with cross-functional teams to define project requirements and deadlines.",
@@ -156,7 +156,7 @@ i18n
           "backendTech": "Backend: Express, Node, Nodemailer, Cloudinary, Stripe.",
           "databaseTech": "Base de datos: PostgreSQL, Sequelize.",
           "jobTitle5": "Full Stack Developer",
-          "company5": "CONEQ",
+          "company5": "Coneq",
           "date5": "Diciembre 2024 - Actualidad",
           "responsibility12": "Desarrollando y optimizando soluciones de software para la industria de la construcción.",
           "responsibility13": "Colaborando con equipos multifuncionales para definir requisitos y plazos de proyectos.",

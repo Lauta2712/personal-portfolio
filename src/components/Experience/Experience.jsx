@@ -11,8 +11,25 @@ const Experience = () => {
       <h2>{t('experience')}</h2>
       
       <div className="experience-container">
-        
-      <div className="experience-item">
+        <div className="experience-item">
+          <div className="experience-header">
+            <FaCode className="experience-icon" />
+            <div className="experience-details">
+              <h3>{t('jobTitle1')}</h3>
+              <p>{t('company1')}</p>
+            </div>
+            <div className="experience-date">
+              <FaCalendarAlt className="calendar-icon" />
+              <p>{t('date1')}</p>
+            </div>
+          </div>
+          <ul className="experience-description">
+            <li>{t('responsibility1')}</li>
+            <li>{t('responsibility2')}</li>
+          </ul>
+        </div>
+
+        <div className="experience-item">
         {/* <a href="https://www.coneq.com.ar/" target="_blank" rel="noopener noreferrer" className="experience-link"> */}
           <div className="experience-header">
               <FaCode className="experience-icon" />
@@ -44,24 +61,6 @@ const Experience = () => {
               </p>
             </div>
           {/* </a> */}
-        </div>
-
-        <div className="experience-item">
-          <div className="experience-header">
-            <FaCode className="experience-icon" />
-            <div className="experience-details">
-              <h3>{t('jobTitle1')}</h3>
-              <p>{t('company1')}</p>
-            </div>
-            <div className="experience-date">
-              <FaCalendarAlt className="calendar-icon" />
-              <p>{t('date1')}</p>
-            </div>
-          </div>
-          <ul className="experience-description">
-            <li>{t('responsibility1')}</li>
-            <li>{t('responsibility2')}</li>
-          </ul>
         </div>
 
         <div className="experience-item">
