@@ -12,6 +12,40 @@ const Experience = () => {
       
       <div className="experience-container">
         
+      <div className="experience-item">
+        {/* <a href="https://www.coneq.com.ar/" target="_blank" rel="noopener noreferrer" className="experience-link"> */}
+          <div className="experience-header">
+              <FaCode className="experience-icon" />
+              <div className="experience-details">
+                <h3>{t('jobTitle5')}</h3>
+                <p>{t('company5')}</p>
+              </div>
+              <div className="experience-date">
+                <FaCalendarAlt className="calendar-icon" />
+                <p>{t('date5')}</p>
+              </div>
+            </div>
+            <div className="project-features">
+              <p>{t('projectDescription')}</p>
+              <ul>
+                <li>{t('feature1')}</li>
+                <li>{t('feature2')}</li>
+                <li>{t('feature3')}</li>
+                <li>{t('feature4')}</li>
+                <li>{t('feature5')}</li>
+                <li>{t('feature6')}</li>
+              </ul>
+            </div>
+            <div className="experience-link">
+              <p>
+                <a href="https://www.coneq.com.ar/" target="_blank" rel="noopener noreferrer">
+                  https://www.coneq.com.ar/
+                </a>
+              </p>
+            </div>
+          {/* </a> */}
+        </div>
+
         <div className="experience-item">
           <div className="experience-header">
             <FaCode className="experience-icon" />

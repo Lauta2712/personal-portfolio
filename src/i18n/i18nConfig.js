@@ -53,6 +53,24 @@ i18n
           "backendTech": "Backend: Express, Node, Nodemailer, Cloudinary, Stripe.",
           "databaseTech": "Database: PostgreSQL, Sequelize.",
           
+          "jobTitle5": "Full Stack Developer",
+          "company5": "CONEQ",
+          "date5": "December 2024 - Present",
+          "responsibility12": "Developing and optimizing software solutions for the construction industry.",
+          "responsibility13": "Collaborating with cross-functional teams to define project requirements and deadlines.",
+          "responsibility14": "Leading the development of new features for our core product.",
+          "responsibility15": "Providing technical support and troubleshooting for software issues.",
+            
+          "projectDescription": "Corporate website developed for an engineering and construction company.",
+          
+          "mainFeatures": "Main Features:",
+          "feature1": "Responsive Design: Adaptable to mobile devices, tablets, and computers.",
+          "feature2": "SEO Optimization: Implementation of best practices to improve visibility in search engines.",
+          "feature3": "Multilingual System: Support for multiple languages via i18n.",
+          "feature4": "Technologies Used: React, CSS, EmailJS, LeafletJS, among others.",
+          "feature5": "Modern and Professional Design: Focused on reflecting the company's corporate identity.",
+          "feature6": "Corporate Email Development.",
+
           // Footer
           "download cv":"Download CV",
 
@@ -137,6 +155,23 @@ i18n
           "frontendTech": "Frontend: HTML, CSS, React, Redux, Auth0, Stripe.",
           "backendTech": "Backend: Express, Node, Nodemailer, Cloudinary, Stripe.",
           "databaseTech": "Base de datos: PostgreSQL, Sequelize.",
+          "jobTitle5": "Full Stack Developer",
+          "company5": "CONEQ",
+          "date5": "Diciembre 2024 - Actualidad",
+          "responsibility12": "Desarrollando y optimizando soluciones de software para la industria de la construcción.",
+          "responsibility13": "Colaborando con equipos multifuncionales para definir requisitos y plazos de proyectos.",
+          "responsibility14": "Liderando el desarrollo de nuevas funcionalidades para nuestro producto principal.",
+          "responsibility15": "Brindando soporte técnico y solucionando problemas de software.",
+          
+          "projectDescription": "Sitio corporativo desarrollado para una empresa de ingeniería y construcción.",
+          
+          "mainFeatures": "Características principales:",
+          "feature1": "Diseño responsivo: Adaptable a dispositivos móviles, tablets y computadoras.",
+          "feature2": "Optimización SEO: Implementación de buenas prácticas para mejorar la visibilidad en motores de búsqueda.",
+          "feature3": "Sistema multilenguaje: Soporte para varios idiomas mediante i18n.",
+          "feature4": "Tecnologías utilizadas: React, CSS, EmailJS, LeafletJS, entre otras.",
+          "feature5": "Diseño moderno y profesional: Enfocado en reflejar la identidad corporativa de la empresa.",
+          "feature6": "Desarrollo de correo corporativo.",
           
           //Footer
           "download cv":"Descargar CV",

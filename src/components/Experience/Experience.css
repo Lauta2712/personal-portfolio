@@ -4,7 +4,7 @@
   text-align: center;
 }
 
-.experience-container{
+.experience-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 15px;
@@ -17,7 +17,7 @@
 }
 
 .experience-item {
-  background-color: #1e1e1e; 
+  background-color: #1e1e1e;
   padding: 20px;
   width: 100%;
   border-radius: 8px;
@@ -26,13 +26,13 @@
 }
 
 .experience-item:hover {
-  transform: translateY(-10px); 
+  transform: translateY(-10px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
 }
 
 .experience-header {
   display: flex;
-  align-items: center; 
+  align-items: center;
   justify-content: space-between;
   margin-bottom: 15px;
   text-align: left;
@@ -93,23 +93,79 @@
   color: #00BFFF;
 }
 
+.project-features {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.project-features h4 {
+  font-size: 1.5em;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.project-features p {
+  font-size: 1.2rem;
+  color: #bbb;
+  margin-bottom: 15px;
+}
+
+.project-features ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.project-features ul li {
+  font-size: 1em;
+  color: #bbb;
+  margin: 5px 0;
+  transition: color 0.3s ease;
+}
+
+.project-features ul li:hover {
+  color: #00BFFF;
+}
+
+.experience-link a {
+  color: #00BFFF;  
+  text-decoration: none; 
+  font-size: 1rem; 
+}
+
+.experience-link a:hover {
+  text-decoration: underline; 
+}
+
 @media (min-width: 768px) and (max-width: 1020px) {
   .experience-item {
     margin: 0 auto 40px auto;
   }
 
-  .experience-item h3{
+  .experience-item h3 {
     font-size: 1.2rem;
   }
-  .experience-item p{
+  .experience-item p {
     font-size: 0.8rem;
   }
-  .experience-item li{
+  .experience-item li {
     font-size: 0.8rem;
+  }
+
+  .project-features h4 {
+    font-size: 1.2rem;
+  }
+
+  .project-features p {
+    font-size: 1rem;
+  }
+
+  .project-features ul li {
+    font-size: 0.9rem;
   }
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
   .experience-container {
     grid-template-columns: 1fr;
   }
@@ -121,13 +177,25 @@
   .experience-details h3 {
     font-size: 1rem;
   }
-  
+
   .experience-details p,
   .experience-date p {
     font-size: 0.8rem;
   }
 
   .experience-description li {
+    font-size: 0.8rem;
+  }
+
+  .project-features h4 {
+    font-size: 1.1rem;
+  }
+
+  .project-features p {
+    font-size: 0.9rem;
+  }
+
+  .project-features ul li {
     font-size: 0.8rem;
   }
 }
@@ -140,17 +208,29 @@
   .experience-section h2 {
     font-size: 1.5rem;
   }
-  
+
   .experience-details h3 {
     font-size: 0.8rem;
   }
-  
+
   .experience-details p,
   .experience-date p {
     font-size: 0.5rem;
   }
-  
+
   .experience-description li {
     font-size: 0.6rem;
+  }
+
+  .project-features h4 {
+    font-size: 1rem;
+  }
+
+  .project-features p {
+    font-size: 0.8rem;
+  }
+
+  .project-features ul li {
+    font-size: 0.7rem;
   }
 }
