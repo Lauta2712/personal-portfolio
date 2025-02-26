@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     padding-top: 12%;
-    background: none;
+    background: linear-gradient(to top, #121212, #0d1b2a);
     color: #ffffff;
     text-align: center;
     height: 100vh; 
