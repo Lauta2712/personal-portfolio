@@ -18,10 +18,10 @@ const Experience = () => {
               <h3>{t('jobTitle1')}</h3>
               <p>{t('company1')}</p>
             </div>
-            <div className="experience-date">
-              <FaCalendarAlt className="calendar-icon" />
-              <p>{t('date1')}</p>
-            </div>
+          </div>
+          <div className="experience-date">
+            <FaCalendarAlt className="calendar-icon" />
+            <p>{t('date1')}</p>
           </div>
           <ul className="experience-description">
             <li>{t('responsibility1')}</li>
@@ -37,10 +37,10 @@ const Experience = () => {
                 <h3>{t('jobTitle5')}</h3>
                 <p>{t('company5')}</p>
               </div>
-              <div className="experience-date">
-                <FaCalendarAlt className="calendar-icon" />
-                <p>{t('date5')}</p>
-              </div>
+            </div>
+            <div className="experience-date">
+              <FaCalendarAlt className="calendar-icon" />
+              <p>{t('date5')}</p>
             </div>
             <div className="project-features">
               <p>{t('projectDescription')}</p>
@@ -70,10 +70,10 @@ const Experience = () => {
               <h3>{t('jobTitle2')}</h3>
               <p>{t('company2')}</p>
             </div>
-            <div className="experience-date">
-              <FaCalendarAlt className="calendar-icon" />
-              <p>{t('date2')}</p>
-            </div>
+          </div>
+          <div className="experience-date">
+            <FaCalendarAlt className="calendar-icon" />
+            <p>{t('date2')}</p>
           </div>
           <ul className="experience-description">
             <li>{t('responsibility3')}</li>
@@ -89,10 +89,10 @@ const Experience = () => {
               <h3>{t('jobTitle4')}</h3>
               <p>{t('company4')}</p>
             </div>
-            <div className="experience-date">
-              <FaCalendarAlt className="calendar-icon" />
-              <p>{t('date4')}</p>
-            </div>
+          </div>
+          <div className="experience-date">
+            <FaCalendarAlt className="calendar-icon" />
+            <p>{t('date4')}</p>
           </div>
           <ul className="experience-description">
             <li>{t('responsibility9')}</li>
@@ -108,10 +108,10 @@ const Experience = () => {
               <h3>{t('jobTitle3')}</h3>
               <p>{t('company3')}</p>
             </div>
-            <div className="experience-date">
-              <FaCalendarAlt className="calendar-icon" />
-              <p>{t('date3')}</p>
-            </div>
+          </div>
+          <div className="experience-date">
+            <FaCalendarAlt className="calendar-icon" />
+            <p>{t('date3')}</p>
           </div>
           <ul className="experience-description">
             <li>{t('responsibility6')}</li>
