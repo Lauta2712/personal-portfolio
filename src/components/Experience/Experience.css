@@ -57,7 +57,7 @@
   transition: transform 0.3s ease;
 }
 
-.experience-item::before {
+/* .experience-item::before {
   content: '';
   position: absolute;
   top: 25px;
@@ -67,7 +67,7 @@
   border: 2px solid #fff;
   border-radius: 50%;
   z-index: 1;
-}
+} */
 
 .experience-item:nth-child(odd) {
   align-self: flex-start;
