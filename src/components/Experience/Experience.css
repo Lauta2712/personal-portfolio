@@ -94,7 +94,6 @@
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
 }
 
-/* Responsividad */
 @media (max-width: 768px) {
   .experience-section h2 {
     font-size: 1.2rem;
@@ -117,11 +116,11 @@
   }
 
   .experience-card h3 {
-    font-size: 1rem;
+    font-size: 1em;
   }
 
   .experience-card p {
-    font-size: 0.8rem;
+    font-size: 0.8em;
   }
 
   .experience-card li {
