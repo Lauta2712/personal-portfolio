@@ -11,6 +11,7 @@ const Experience = () => {
       <h2>{t('experience')}</h2>
       
       <div className="experience-container">
+
         <div className="experience-item">
           <div className="experience-header">
             <FaCode className="experience-icon" />
@@ -19,10 +20,12 @@ const Experience = () => {
               <p>{t('company1')}</p>
             </div>
           </div>
+
           <div className="experience-date">
             <FaCalendarAlt className="calendar-icon" />
             <p>{t('date1')}</p>
           </div>
+
           <ul className="experience-description">
             <li>{t('responsibility1')}</li>
             <li>{t('responsibility2')}</li>
@@ -30,7 +33,6 @@ const Experience = () => {
         </div>
 
         <div className="experience-item">
-        {/* <a href="https://www.coneq.com.ar/" target="_blank" rel="noopener noreferrer" className="experience-link"> */}
           <div className="experience-header">
               <FaCode className="experience-icon" />
               <div className="experience-details">
@@ -38,13 +40,15 @@ const Experience = () => {
                 <p>{t('company5')}</p>
               </div>
             </div>
+
             <div className="experience-date">
               <FaCalendarAlt className="calendar-icon" />
               <p>{t('date5')}</p>
             </div>
-            <div className="project-features">
-              <p>{t('projectDescription')}</p>
-              <ul>
+
+            {/* <div className="project-features"> */}
+              {/* <p>{t('projectDescription')}</p> */}
+              <ul className="experience-description">
                 <li>{t('feature1')}</li>
                 <li>{t('feature2')}</li>
                 <li>{t('feature3')}</li>
@@ -52,7 +56,7 @@ const Experience = () => {
                 <li>{t('feature5')}</li>
                 <li>{t('feature6')}</li>
               </ul>
-            </div>
+            {/* </div> */}
             <div className="experience-link">
               <p>
                 <a href="https://www.coneq.com.ar/" target="_blank" rel="noopener noreferrer">

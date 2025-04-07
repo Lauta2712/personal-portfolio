@@ -114,15 +114,15 @@
     display: none;
   }
 
-  .experience-card h3 {
+  .experience-item h3 {
     font-size: 1em;
   }
 
-  .experience-card p {
+  .experience-item p {
     font-size: 0.8em;
   }
 
-  .experience-card li {
+  .experience-item li {
     font-size: 0.5rem;
   }
 
@@ -136,15 +136,16 @@
     font-size: 1.2rem;
   }
 
-  .experience-card h3 {
+  .experience-item h3 {
     font-size: 1rem;
   }
 
-  .experience-card p {
+  .experience-item p {
     font-size: 0.6rem;
+    /* margin-bottom: 1%; */
   }
 
-  .experience-card li {
+  .experience-item li {
     font-size: 0.5rem;
   }
 
