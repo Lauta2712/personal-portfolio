@@ -105,9 +105,7 @@
   }
 
   .experience-item::before {
-    left: -15px !important;
-    right: auto !important;
-    margin: 0 !important;
+    display: none;
   }
 
   .experience-container::before {
