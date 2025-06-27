@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "./Skills.css";
-import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaNode, FaGit, FaBootstrap } from "react-icons/fa";
-import { SiRedux, SiExpress, SiPostgresql, SiSequelize, SiCsharp, SiCplusplus, SiDocker } from "react-icons/si";
-import { useTranslation } from 'react-i18next';  
+import {FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaNode, FaGit, FaBootstrap, FaPython} from "react-icons/fa";
+import { SiRedux, SiExpress, SiPostgresql, SiSequelize, SiCsharp, SiCplusplus, SiDocker} from "react-icons/si";
+import { useTranslation } from 'react-i18next';
 
 const Skills = () => {
   const { t } = useTranslation();
@@ -22,11 +22,13 @@ const Skills = () => {
     { icon: "Scrum", name: "Scrum" },
     { icon: <FaGit />, name: "Git" },
     { icon: <FaBootstrap />, name: "Bootstrap" },
-    { icon: <SiDocker />, name: "Docker" },  
+    { icon: <SiDocker />, name: "Docker" },
     { icon: "Material UI", name: "Material UI" },
     { icon: "C", name: "C" },
     { icon: <SiCplusplus />, name: "C++" },
     { icon: <SiCsharp />, name: "C#" },
+    { icon: <FaPython />, name: "Python" },
+    { icon: "Flask", name: "Flask" },
   ];
 
   return (
@@ -38,7 +40,7 @@ const Skills = () => {
             key={index}
             onMouseEnter={() => setSelectedSkill(skill.name)}
             onMouseLeave={() => setSelectedSkill("")}
-            onClick={() => setSelectedSkill(skill.name)} 
+            onClick={() => setSelectedSkill(skill.name)}
           >
             {skill.icon}
             {selectedSkill === skill.name && <span className="skill-name">{skill.name}</span>}
@@ -47,6 +49,6 @@ const Skills = () => {
       </ul>
     </section>
   );
-}
+};
 
 export default Skills;
