@@ -13,7 +13,7 @@ const Footer = () => {
                 <a href="https://github.com/Lauta2712" target="_blank" rel="noopener noreferrer">
                     <FaGithub size={40} style={{ color: '#333' }} /> 
                 </a>
-                <a href="https://instagram.com/lauta_rodriguez01/" target="_blank" rel="noopener noreferrer">
+                <a href="https://instagram.com/lautarodriguezm/" target="_blank" rel="noopener noreferrer">
                     <FaInstagram size={40} style={{ color: '#E4405F' }} />
                 </a>
                 <a href="https://x.com/lautarodriguezm" target="_blank" rel="noopener noreferrer">
