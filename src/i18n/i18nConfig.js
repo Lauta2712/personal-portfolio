@@ -8,9 +8,11 @@ i18n
       en: {
         translation: {
           // HeroContent
-          "greeting": "Hello! I am",
+          "greeting": "Hi! I'm",
           "name": "Lautaro Rodriguez",
           "profession": "Full Stack Developer",
+          "heroSubtitle": "I build scalable web applications, dashboards, and modern websites that help businesses grow.",
+          "heroCTA": "Work With Me",
           
           //Navbar
           "skills": "Skills",
@@ -76,41 +78,23 @@ i18n
 
           // Services
           "services": "Services",
-          "serviceTitle1": "Web Development",
-          "serviceDescription1": "Offering a comprehensive web development service that includes custom web applications, responsive design, and API integrations tailored to your needs.",
-          "serviceFeature1": "Custom web applications",
-          "serviceFeature2": "Responsive design",
-          "serviceFeature3": "API integration",
+          "serviceTitle1": "Professional Landing Page",
+          "serviceDescription1": "Design and development of modern, responsive, and high-converting landing pages to boost your online presence.",
+          "serviceFeature1": "Responsive design",
+          "serviceFeature2": "SEO optimization",
+          "serviceFeature3": "Fast and scalable performance",
 
-          "serviceTitle2": "Dashboard and Custom Web Applications",
-          "serviceDescription2": "Development of interactive dashboards and custom applications with advanced data visualization.",
-          "serviceFeature4": "Data visualization",
-          "serviceFeature5": "Custom UI components",
-          "serviceFeature6": "Database integration",
+          "serviceTitle2": "Business Data Dashboard",
+          "serviceDescription2": "Custom dashboards that allow your company to visualize, analyze, and manage data efficiently with interactive charts and reports.",
+          "serviceFeature4": "Advanced data visualization",
+          "serviceFeature5": "Integration with business databases",
+          "serviceFeature6": "Custom interactive components",
 
-          "serviceTitle3": "Mentorship and Consulting",
-          "serviceDescription3": "Guiding junior developers and businesses in best coding practices and modern web development technologies.",
-          "serviceFeature7": "Code review and optimization",
-          "serviceFeature8": "Technical mentorship",
-          "serviceFeature9": "Best development practices",
-          // "services": "Services",
-          // "serviceTitle1": "Web Development",
-          // "serviceDescription1": "Offering a comprehensive web development service that includes custom web applications, responsive design, and API integrations tailored to your needs.",
-          // "serviceFeature1": "Custom web applications",
-          // "serviceFeature2": "Responsive design",
-          // "serviceFeature3": "API integration",
-                    
-          // "serviceTitle2": "UX/UI Design",
-          // "serviceDescription2": "Designing user-centered interfaces and experiences to create intuitive, aesthetically pleasing digital products.",
-          // "serviceFeature4": "User interface design",
-          // "serviceFeature5": "User experience optimization",
-          // "serviceFeature6": "Prototyping and wireframing",
-                    
-          // "serviceTitle3": "Software Development",
-          // "serviceDescription3": "Providing creative and professional software development services.",
-          // "serviceFeature7": "Software design",
-          // "serviceFeature8": "Innovative solutions",
-          // "serviceFeature9": "Marketing materials",
+          "serviceTitle3": "Multilingual Corporate Website",
+          "serviceDescription3": "Development of professional corporate websites with multilingual support, SEO best practices, and a modern design that reflects your brand identity.",
+          "serviceFeature7": "Multilanguage support",
+          "serviceFeature8": "SEO optimization",
+          "serviceFeature9": "Modern and professional design",
           
           //FORM
           "form": {
@@ -133,6 +117,8 @@ i18n
           "greeting": "Hola! soy",
           "name": "Lautaro Rodriguez",
           "profession": "Desarrollador Full Stack",
+          "heroSubtitle": "Desarrollo aplicaciones web escalables, dashboards y sitios modernos que ayudan a los negocios a crecer.",
+          "heroCTA": "Trabajemos juntos",
           
           // About
           "about": "Acerca de",
@@ -196,41 +182,23 @@ i18n
 
           // Servicios
           "services": "Servicios",
-          "serviceTitle1": "Desarrollo Web",
-          "serviceDescription1": "Ofrezco un servicio integral de desarrollo web que incluye aplicaciones web personalizadas, diseño responsivo e integración de APIs adaptadas a tus necesidades.",
-          "serviceFeature1": "Aplicaciones web personalizadas",
-          "serviceFeature2": "Diseño responsivo",
-          "serviceFeature3": "Integración de APIs",
+          "serviceTitle1": "Landing Page Profesional",
+          "serviceDescription1": "Diseño y desarrollo de landing pages modernas, responsivas y optimizadas para conversiones que potencian tu presencia online.",
+          "serviceFeature1": "Diseño responsivo",
+          "serviceFeature2": "Optimización SEO",
+          "serviceFeature3": "Rendimiento rápido y escalable",
 
-          "serviceTitle2": "Dashboards y Aplicaciones Personalizadas",
-          "serviceDescription2": "Desarrollo de dashboards interactivos y aplicaciones personalizadas con visualización avanzada de datos.",
-          "serviceFeature4": "Visualización de datos",
-          "serviceFeature5": "Componentes UI personalizados",
-          "serviceFeature6": "Integración con bases de datos",
+          "serviceTitle2": "Dashboard de Datos Empresariales",
+          "serviceDescription2": "Dashboards personalizados que permiten a tu empresa visualizar, analizar y gestionar datos de forma eficiente con reportes e indicadores interactivos.",
+          "serviceFeature4": "Visualización avanzada de datos",
+          "serviceFeature5": "Integración con bases de datos empresariales",
+          "serviceFeature6": "Componentes interactivos personalizados",
 
-          "serviceTitle3": "Mentoría y Consultoría",
-          "serviceDescription3": "Guío a desarrolladores junior y empresas en las mejores prácticas de programación y tecnologías modernas de desarrollo web.",
-          "serviceFeature7": "Revisión y optimización de código",
-          "serviceFeature8": "Mentoría técnica",
-          "serviceFeature9": "Mejores prácticas de desarrollo",
-          // "services": "Servicios",
-          // "serviceTitle1": "Desarrollo Web",
-          // "serviceDescription1": "Ofrezco un servicio integral de desarrollo web que incluye aplicaciones web personalizadas, diseño responsivo e integración de APIs adaptadas a tus necesidades.",
-          // "serviceFeature1": "Aplicaciones web personalizadas",
-          // "serviceFeature2": "Diseño responsivo",
-          // "serviceFeature3": "Integración de APIs",
-          
-          // "serviceTitle2": "Diseño UX/UI",
-          // "serviceDescription2": "Diseño de interfaces centradas en el usuario y experiencias para crear productos digitales intuitivos y estéticamente atractivos.",
-          // "serviceFeature4": "Diseño de interfaz de usuario",
-          // "serviceFeature5": "Optimización de experiencia de usuario",
-          // "serviceFeature6": "Prototipos y wireframes",
-          
-          // "serviceTitle3": "Desarrollo de Software",
-          // "serviceDescription3": "Servicios de desarrollo de software profesionales y creativos.",
-          // "serviceFeature7": "Diseño de Software",
-          // "serviceFeature8": "Soluciones innovadoras",
-          // "serviceFeature9": " ",
+          "serviceTitle3": "Sitio Corporativo Multilenguaje",
+          "serviceDescription3": "Desarrollo de sitios corporativos profesionales con soporte multilenguaje, buenas prácticas SEO y un diseño moderno que refleje la identidad de tu marca.",
+          "serviceFeature7": "Soporte multilenguaje",
+          "serviceFeature8": "Optimización SEO",
+          "serviceFeature9": "Diseño moderno y profesional",
 
           //FORM
           "form": {
