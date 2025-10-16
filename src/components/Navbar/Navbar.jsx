@@ -61,18 +61,18 @@ const Navbar = () => {
                 ) : (
                     <nav className="navbar">
                         <ul>
-                            <div className="language-switch">
-                                <label className="switch">
-                                    <input type="checkbox" checked={i18n.language === "es"} onChange={toggleLanguage} />
-                                    <span className="slider"></span>
-                                </label>
-                                <span className={`flag-icon ${i18n.language === "en" ? "flag-us" : "flag-ar"}`}></span>
-                            </div>
                             <li><a href="#about" onClick={toggleNav}>{t('about')}</a></li>
                             <li><a href="#experience" onClick={toggleNav}>{t('experience')}</a></li>
                             <li><a href="#services" onClick={toggleNav}>{t('skills')}</a></li>
                             <li><a href="#contact" onClick={toggleNav}>{t('contact')}</a></li>
                         </ul>                        
+                        <div className="language-switch">
+                            <label className="switch">
+                                <input type="checkbox" checked={i18n.language === "es"} onChange={toggleLanguage} />
+                                <span className="slider"></span>
+                            </label>
+                            <span className={`flag-icon ${i18n.language === "en" ? "flag-us" : "flag-ar"}`}></span>
+                        </div>
                     </nav>
                 )}
             </div>
