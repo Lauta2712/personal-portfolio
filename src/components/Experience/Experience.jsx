@@ -59,8 +59,11 @@ const Experience = () => {
             {/* </div> */}
             <div className="experience-link">
               <p>
-                <a href="https://www.coneq.com.ar/" target="_blank" rel="noopener noreferrer">
+                {/* <a href="https://www.coneq.com.ar/" target="_blank" rel="noopener noreferrer">
                   https://www.coneq.com.ar/
+                </a> */}
+                <a href="https://coneq-sas.vercel.app/" target="_blank" rel="noopener noreferrer">
+                  https://coneq-sas.vercel.app/
                 </a>
               </p>
             </div>
