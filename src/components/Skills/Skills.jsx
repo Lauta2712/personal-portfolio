@@ -24,9 +24,9 @@ const Skills = () => {
     { icon: <FaBootstrap />, name: "Bootstrap" },
     { icon: <SiDocker />, name: "Docker" },
     { icon: "Material UI", name: "Material UI" },
-    { icon: "C", name: "C" },
-    { icon: <SiCplusplus />, name: "C++" },
-    { icon: <SiCsharp />, name: "C#" },
+    // { icon: "C", name: "C" },
+    // { icon: <SiCplusplus />, name: "C++" },
+    // { icon: <SiCsharp />, name: "C#" },
     { icon: <FaPython />, name: "Python" },
     { icon: "Flask", name: "Flask" },
   ];
