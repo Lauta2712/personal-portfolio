@@ -134,7 +134,7 @@ i18n
           "experience": "Experiencia",
           "jobTitle1": "Desarrollador Full Stack",
           "company1": "ANT Automation",
-          "date1": "Jul 2023 - Actualidad",
+          "date1": "Jul 2023 - Mar 2026",
           "responsibility1": "Desarrollar dashboards, plugins y aplicaciones online utilizando JavaScript, React, Redux, Material UI, KendoUI, Highcharts, CSS, C#, .NET, Entity Framework, SQL, SQL Server, Sequelize.",
           "responsibility2": "Diseñar interfaces y elementos frontend, mantener y optimizar sitios web existentes.",
           "jobTitle2": "Desarrollador Front End",
