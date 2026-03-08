@@ -73,6 +73,20 @@ i18n
           "feature5": "Modern and Professional Design: Focused on reflecting the company's corporate identity.",
           "feature6": "Corporate Email Development.",
 
+          // Pulso Studio
+          "companyPulso": "Pulso Studio",
+          "jobTitlePulso": "Co-Founder / Full Stack Developer",
+          "datePulso": "2025 - Present",
+          "pulsoDescription": "Co-founded Pulso Studio, a creative and technological digital studio focused on helping businesses build professional digital presence.",
+          "pulsoPoint1": "Development of modern websites",
+          "pulsoPoint2": "Landing pages for services",
+          "pulsoPoint3": "Digital tools for businesses",
+          "pulsoPoint4": "Performance-optimized frontends using React",
+          "pulsoPoint5": "Collaboration between development and digital strategy",
+          "pulsoTech": "React, Vite, JavaScript, HTML, CSS",
+          "pulsoWebsite": "Website",
+          "pulsoComingSoon": "Coming soon",
+
           // Footer
           "download cv":"Download CV",
 
@@ -176,6 +190,20 @@ i18n
           "feature4": "Tecnologías utilizadas: React, CSS, EmailJS, LeafletJS, entre otras.",
           "feature5": "Diseño moderno y profesional: Enfocado en reflejar la identidad corporativa de la empresa.",
           "feature6": "Desarrollo de correo corporativo.",
+
+          // Pulso Studio
+          "companyPulso": "Pulso Studio",
+          "jobTitlePulso": "Co-Fundador / Desarrollador Full Stack",
+          "datePulso": "2025 - Presente",
+          "pulsoDescription": "Co-fundé Pulso Studio, un estudio digital creativo y tecnológico enfocado en ayudar a empresas a construir presencia digital profesional.",
+          "pulsoPoint1": "Desarrollo de sitios web modernos",
+          "pulsoPoint2": "Landing pages para servicios",
+          "pulsoPoint3": "Herramientas digitales para negocios",
+          "pulsoPoint4": "Frontends optimizados en rendimiento con React",
+          "pulsoPoint5": "Colaboración entre desarrollo y estrategia digital",
+          "pulsoTech": "React, Vite, JavaScript, HTML, CSS",
+          "pulsoWebsite": "Sitio web",
+          "pulsoComingSoon": "Próximamente",
           
           //Footer
           "download cv":"Descargar CV",

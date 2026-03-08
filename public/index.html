@@ -19,6 +19,12 @@
     <link rel="apple-touch-icon" href="/favicon.ico" />
     
     <title>Lautaro Rodríguez | Full Stack Developer</title>
+    <script>
+      (function() {
+        var theme = localStorage.getItem('portfolio-theme') || 'dark';
+        document.documentElement.setAttribute('data-theme', theme);
+      })();
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to view this application.</noscript>

@@ -33,7 +33,7 @@ const ContactForm = () => {
 
   return (
     <div id="contact" className="contact-form-container">
-      <h2>{t('form.title')}</h2>
+      <h2 className="section-title">{t('form.title')}</h2>
       <form ref={form} onSubmit={sendEmail}>
         <label htmlFor="from_name">{t('form.nameLabel')}</label>
         <input

@@ -3,33 +3,27 @@
   flex-direction: column;
   min-height: 100vh;
   background-color: #121212;
-  color: #fff;
-}
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  background-color: #1e1e1e;
-  position: fixed;
-  padding-right: 15%;
+  color: var(--text-primary);
+  overflow-x: hidden;
   width: 100%;
-  z-index: 999; 
-}
-
-.hero-image img {
-  border-radius: 50%;
-  max-width: 65px;
 }
 
 .lazy-load-wrapper {
   opacity: 0;
   transform: translateY(20px);
-  transition: opacity 1.8s ease-out, transform 1.8s ease-out;
+  transition: opacity 0.5s var(--ease-out), transform 0.5s var(--ease-out);
 }
 
 .lazy-load-wrapper.visible {
   opacity: 1;
   transform: translateY(0);
+}
+
+@media (min-width: 768px) {
+  .lazy-load-wrapper {
+    transform: translateY(28px);
+  }
+  .lazy-load-wrapper.visible {
+    transform: translateY(0);
+  }
 }

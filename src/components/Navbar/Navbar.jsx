@@ -1,17 +1,19 @@
 import React, { useState, useEffect } from "react";
 import "./Navbar.css";
 import profileImage from "../../img/Lautaro-Photoroom.png";
-import { FaUser, FaTools, FaBriefcase, FaEnvelope } from "react-icons/fa";
-import { useTranslation } from 'react-i18next';  
+import { FaUser, FaTools, FaBriefcase, FaEnvelope, FaSun, FaMoon } from "react-icons/fa";
+import { useTranslation } from 'react-i18next';
+import { useTheme } from '../../context/ThemeContext';
 
 const Navbar = () => {
     const [navOpen, setNavOpen] = useState(false);
-    const [isMobile, setIsMobile] = useState(window.innerWidth <= 480);
-    const { t, i18n } = useTranslation(); 
+    const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
+    const { t, i18n } = useTranslation();
+    const { theme, toggleTheme } = useTheme(); 
 
     useEffect(() => {
         const handleResize = () => {
-            setIsMobile(window.innerWidth <= 480);
+            setIsMobile(window.innerWidth < 768);
         };
 
         window.addEventListener('resize', handleResize);
@@ -38,18 +40,28 @@ const Navbar = () => {
                     <>
                         <aside className={`sidebar ${navOpen ? "open" : ""}`}>
                             <ul>
-                                <li><button className="close-btn" onClick={toggleNav}>×</button></li>
-                                <li><a href="#hero"><FaUser size={24} /> </a></li>
-                                <li><a href="#experience"><FaBriefcase size={24} /> </a></li>
-                                <li><a href="#services"><FaTools size={24} /> </a></li>
-                                <li><a href="#contact"><FaEnvelope size={24} /> </a></li>
+                                <li><button className="close-btn" onClick={toggleNav} aria-label="Cerrar menú">×</button></li>
+                                <li><a href="#about" onClick={toggleNav}><FaUser size={22} /> {t('about')}</a></li>
+                                <li><a href="#experience" onClick={toggleNav}><FaBriefcase size={22} /> {t('experience')}</a></li>
+                                <li><a href="#services" onClick={toggleNav}><FaTools size={22} /> {t('skills')}</a></li>
+                                <li><a href="#contact" onClick={toggleNav}><FaEnvelope size={22} /> {t('contact')}</a></li>
                             </ul>
-                            <div className="language-switch">
-                                <label className="switch">
-                                    <input type="checkbox" checked={i18n.language === "es"} onChange={toggleLanguage} />
-                                    <span className="slider"></span>
-                                </label>
-                                <span className={`flag-icon ${i18n.language === "en" ? "flag-us" : "flag-ar"}`}></span>
+                            <div className="sidebar-controls">
+                                <button
+                                    type="button"
+                                    className="theme-toggle"
+                                    onClick={toggleTheme}
+                                    aria-label={theme === 'dark' ? 'Cambiar a modo claro' : 'Cambiar a modo oscuro'}
+                                >
+                                    {theme === 'dark' ? <FaSun size={22} aria-hidden="true" /> : <FaMoon size={22} aria-hidden="true" />}
+                                </button>
+                                <div className="language-switch">
+                                    <label className="switch">
+                                        <input type="checkbox" checked={i18n.language === "es"} onChange={toggleLanguage} />
+                                        <span className="slider"></span>
+                                    </label>
+                                    <span className={`flag-icon ${i18n.language === "en" ? "flag-us" : "flag-ar"}`}></span>
+                                </div>
                             </div>
                         </aside>
                         <div className="hamburger" onClick={toggleNav}>
@@ -60,18 +72,29 @@ const Navbar = () => {
                     </>
                 ) : (
                     <nav className="navbar">
-                        <ul>
+                        <ul className="navbar-links">
                             <li><a href="#about" onClick={toggleNav}>{t('about')}</a></li>
                             <li><a href="#experience" onClick={toggleNav}>{t('experience')}</a></li>
                             <li><a href="#services" onClick={toggleNav}>{t('skills')}</a></li>
                             <li><a href="#contact" onClick={toggleNav}>{t('contact')}</a></li>
-                        </ul>                        
-                        <div className="language-switch">
-                            <label className="switch">
-                                <input type="checkbox" checked={i18n.language === "es"} onChange={toggleLanguage} />
-                                <span className="slider"></span>
-                            </label>
-                            <span className={`flag-icon ${i18n.language === "en" ? "flag-us" : "flag-ar"}`}></span>
+                        </ul>
+                        <div className="navbar-controls">
+                            <button
+                                type="button"
+                                className="theme-toggle"
+                                onClick={toggleTheme}
+                                aria-label={theme === 'dark' ? 'Cambiar a modo claro' : 'Cambiar a modo oscuro'}
+                                title={theme === 'dark' ? 'Modo claro' : 'Modo oscuro'}
+                            >
+                                {theme === 'dark' ? <FaSun size={20} aria-hidden="true" /> : <FaMoon size={20} aria-hidden="true" />}
+                            </button>
+                            <div className="language-switch">
+                                <label className="switch">
+                                    <input type="checkbox" checked={i18n.language === "es"} onChange={toggleLanguage} />
+                                    <span className="slider"></span>
+                                </label>
+                                <span className={`flag-icon ${i18n.language === "en" ? "flag-us" : "flag-ar"}`}></span>
+                            </div>
                         </div>
                     </nav>
                 )}
