@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Skills.css";
 import {FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaNode, FaGit, FaBootstrap, FaPython} from "react-icons/fa";
-import { SiRedux, SiExpress, SiPostgresql, SiSequelize, SiCsharp, SiCplusplus, SiDocker} from "react-icons/si";
+import { SiRedux, SiExpress, SiPostgresql, SiSequelize, SiDocker } from "react-icons/si";
 import { useTranslation } from 'react-i18next';
 
 const Skills = () => {
