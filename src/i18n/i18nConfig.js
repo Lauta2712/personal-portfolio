@@ -20,10 +20,13 @@ i18n
           
           // About
           "about": "About",
-          "aboutDescriptionPart1": "I am a Full Stack Developer with over 2 years of experience in various technologies and methodologies. I have a strong background in agile methodologies, version control with GIT, and a diverse set of web development technologies including HTML, CSS, JavaScript, React, Redux, Node.js, and more.",
-          "aboutDescriptionPart2": "My experience includes developing custom software solutions, designing and implementing user interfaces, and optimizing web applications. I am passionate about creating efficient, scalable, and user-friendly applications that meet the needs of clients and users alike.",
-          "aboutDescriptionPart3": "I continuously strive to expand my knowledge and skills by staying up-to-date with the latest industry trends and best practices.",
-          "aboutHobbies": "Outside of work, I enjoy trail running, playing guitar, and exploring new music. These hobbies help me stay balanced and inspired, fueling my creativity and problem-solving skills.",
+          "aboutDescriptionPart1": "I'm a Full Stack Developer specialized in React and Node.js, with 2+ years of experience building web applications, dashboards, and corporate websites.",
+          "aboutDescriptionPart2": "I focus on turning business needs into clear, maintainable digital products, collaborating closely with product teams and stakeholders.",
+          "aboutDescriptionPart3": "I care about architecture, performance, and user experience—from frontend design to API and database integration.",
+          "aboutHobbies": "Outside of work, I enjoy trail running, playing guitar, and exploring new music. These keep me creative, focused, and energized.",
+          "aboutStatExperience": "+2 years of experience",
+          "aboutStatTimezone": "UTC-3 · Buenos Aires",
+          "aboutStatLanguages": "Spanish (native), English (B2)",
           
           // Experience
           "experience": "Experience",
@@ -136,10 +139,13 @@ i18n
           
           // About
           "about": "Acerca de",
-          "aboutDescriptionPart1": "Soy un Desarrollador Full Stack con más de 2 años de experiencia en diversas tecnologías y metodologías. Tengo una sólida formación en metodologías ágiles, control de versiones con GIT y un conjunto diverso de tecnologías de desarrollo web, incluyendo HTML, CSS, JavaScript, React, Redux, Node.js y más.",
-          "aboutDescriptionPart2": "Mi experiencia incluye el desarrollo de soluciones de software personalizadas, el diseño e implementación de interfaces de usuario y la optimización de aplicaciones web. Me apasiona crear aplicaciones eficientes, escalables y amigables con el usuario que satisfagan las necesidades de clientes y usuarios por igual.",
-          "aboutDescriptionPart3": "Continuamente me esfuerzo por expandir mis conocimientos y habilidades manteniéndome al tanto de las últimas tendencias de la industria y mejores prácticas.",
-          "aboutHobbies": "Fuera del trabajo, disfruto del trail running, tocar la guitarra y explorar nueva música. Estos pasatiempos me ayudan a mantenerme equilibrado e inspirado, alimentando mi creatividad y habilidades para resolver problemas.",
+          "aboutDescriptionPart1": "Soy Desarrollador Full Stack especializado en React y Node.js, con más de 2 años construyendo aplicaciones web, dashboards y sitios corporativos.",
+          "aboutDescriptionPart2": "Me enfoco en traducir necesidades de negocio en productos digitales claros y mantenibles, trabajando de cerca con equipos de producto y stakeholders.",
+          "aboutDescriptionPart3": "Me gusta cuidar la arquitectura, la performance y la experiencia de usuario, desde el frontend hasta la integración con APIs y bases de datos.",
+          "aboutHobbies": "Fuera del código disfruto del trail running, tocar la guitarra y descubrir nueva música; son cosas que me ayudan a mantener la creatividad y el foco.",
+          "aboutStatExperience": "+2 años de experiencia",
+          "aboutStatTimezone": "UTC-3 · Buenos Aires",
+          "aboutStatLanguages": "Español (nativo), Inglés (B2)",
           //Navbar
           "skills": "Habilidades",
           "contact":"Contacto",

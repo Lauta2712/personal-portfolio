@@ -34,6 +34,7 @@
   min-width: 64px;
   min-height: 64px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   background: var(--card-bg);
@@ -71,23 +72,17 @@
   transition: transform var(--duration-normal) var(--ease-out);
 }
 
-.skill-name {
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  transform: translateX(-50%);
-  background: rgba(18, 18, 18, 0.96);
-  color: var(--text-primary);
-  padding: 0.35rem 0.5rem;
-  border-radius: var(--radius-sm);
-  white-space: nowrap;
-  z-index: 10;
+.skill-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skill-label {
+  margin-top: 0.25rem;
   font-size: 0.7rem;
-  margin-top: var(--space-sm);
   font-weight: 500;
-  border: 1px solid var(--card-border);
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
-  pointer-events: none;
+  color: var(--text-secondary);
 }
 
 @media (min-width: 380px) {
@@ -106,6 +101,9 @@
     font-size: 1.65rem;
     width: 1.65rem;
     height: 1.65rem;
+  }
+  .skill-label {
+    font-size: 0.72rem;
   }
 }
 
@@ -132,8 +130,8 @@
     width: 1.75rem;
     height: 1.75rem;
   }
-  .skill-name {
-    font-size: 0.72rem;
+  .skill-label {
+    font-size: 0.75rem;
   }
 }
 
@@ -154,9 +152,8 @@
     width: 2rem;
     height: 2rem;
   }
-  .skill-name {
-    font-size: 0.75rem;
-    padding: 0.4rem 0.65rem;
+  .skill-label {
+    font-size: 0.78rem;
   }
 }
 
