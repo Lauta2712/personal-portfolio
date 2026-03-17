@@ -146,6 +146,43 @@ i18n
           "comingSoonTitle4": "CI/CD & Basic DevOps",
           "comingSoonDescription4": "CI/CD pipeline setup with GitHub Actions, Docker and cloud deployments on Vercel, Railway or AWS.",
           
+          // Projects
+          "projects": {
+            "sectionTitle": "Featured Projects",
+            "intro": "Some of the projects I've worked on recently, combining development, design and business focus.",
+            "viewProject": "View project",
+            "pulso": {
+              "title": "Pulso Studio",
+              "role": "Co-Founder · Full Stack Developer",
+              "description": "Digital studio that helps professionals and businesses translate their value proposition into clear, modern, easy-to-maintain websites.",
+              "bullets": [
+                "Definition of content structure and key messages with the client.",
+                "Design and development of websites and landing pages aimed at getting contacts and bookings.",
+                "Integration of forms, email automation and basic analytics to understand user behavior."
+              ]
+            },
+            "coneq": {
+              "title": "Coneq",
+              "role": "Full Stack Developer",
+              "description": "Corporate website for an engineering and construction company, focused on building trust and showcasing their projects clearly.",
+              "bullets": [
+                "Information architecture for services, projects and contact sections.",
+                "Implementation of a responsive design consistent with the company's visual identity.",
+                "Performance and on-page SEO adjustments (metadata, semantic structure, best practices)."
+              ]
+            },
+            "crux": {
+              "title": "Crux Escalada · Scheduling System",
+              "role": "Full Stack Developer",
+              "description": "Internal web application for a climbing gym to manage schedules, capacity and attendance in a centralized way.",
+              "bullets": [
+                "Shift and capacity management by time slot directly from the browser.",
+                "Admin panel for user management and attendance tracking.",
+                "QR codes to speed up check-in and daily control by staff."
+              ]
+            }
+          },
+
           //FORM
           "form": {
             "title": "Contact Me",
@@ -299,6 +336,43 @@ i18n
           "comingSoonDescription3": "Desarrollo de aplicaciones móviles multiplataforma para iOS y Android con React Native.",
           "comingSoonTitle4": "CI/CD y DevOps básico",
           "comingSoonDescription4": "Configuración de pipelines CI/CD con GitHub Actions, Docker y despliegues en Vercel, Railway o AWS.",
+
+          // Projects
+          "projects": {
+            "sectionTitle": "Proyectos destacados",
+            "intro": "Algunos de los proyectos en los que trabajé recientemente, combinando desarrollo, diseño y foco en el negocio.",
+            "viewProject": "Ver proyecto",
+            "pulso": {
+              "title": "Pulso Studio",
+              "role": "Co-Founder · Full Stack Developer",
+              "description": "Estudio digital que ayuda a profesionales y negocios a traducir su propuesta de valor en sitios web claros, modernos y fáciles de mantener.",
+              "bullets": [
+                "Definición de la estructura de contenido y mensajes clave junto al cliente.",
+                "Diseño y desarrollo de sitios web y landing pages orientadas a conseguir contactos y reservas.",
+                "Integración de formularios, automatizaciones de correo y analítica básica para entender el comportamiento de los usuarios."
+              ]
+            },
+            "coneq": {
+              "title": "Coneq",
+              "role": "Full Stack Developer",
+              "description": "Sitio corporativo para una empresa de ingeniería y construcción, enfocado en transmitir confianza y mostrar sus proyectos de forma clara.",
+              "bullets": [
+                "Arquitectura de información para secciones de servicios, proyectos y contacto.",
+                "Implementación de un diseño responsive consistente con la identidad visual de la empresa.",
+                "Ajustes de rendimiento y SEO on-page (metadatos, estructura semántica, buenas prácticas)."
+              ]
+            },
+            "crux": {
+              "title": "Crux Escalada · Sistema de horarios",
+              "role": "Full Stack Developer",
+              "description": "Aplicación web interna para que un gimnasio de escalada pueda gestionar sus horarios, cupos y asistencias de forma centralizada.",
+              "bullets": [
+                "Gestión de turnos y cupos por franja horaria directamente desde el navegador.",
+                "Panel para administración de usuarios y registro de asistencias.",
+                "Uso de códigos QR para agilizar el ingreso y control diario por parte del staff."
+              ]
+            }
+          },
 
           //FORM
           "form": {
