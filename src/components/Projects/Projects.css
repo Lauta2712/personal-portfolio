@@ -22,7 +22,7 @@
   grid-template-columns: 1fr;
   gap: var(--space-lg);
   width: 100%;
-  max-width: 960px;
+  max-width: 1250px;
   margin: 0 auto;
 }
 
@@ -33,6 +33,8 @@
   padding: var(--space-lg);
   box-shadow: var(--card-shadow);
   text-align: left;
+  display: flex;
+  flex-direction: column;
 }
 
 .project-preview {
@@ -119,17 +121,10 @@
   font-weight: 700;
 }
 
-.project-stack {
-  font-size: 0.8rem;
-  color: var(--accent);
-  font-weight: 500;
-  margin: 0 0 var(--space-sm);
-}
-
 .project-actions {
   display: flex;
-  flex-wrap: wrap;
-  gap: var(--space-sm);
+  justify-content: center;
+  margin-top: auto;
 }
 
 .project-link {
@@ -166,7 +161,7 @@
 
 @media (min-width: 768px) {
   .projects-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: var(--space-xl);
   }
   .project-card {

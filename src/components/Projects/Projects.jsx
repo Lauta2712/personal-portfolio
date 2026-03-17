@@ -1,5 +1,8 @@
 import React from "react";
 import "./Projects.css";
+import pulsoImg from "../../assets/pulso.jpg";
+import coneqImg from "../../assets/coneq.jpg";
+import cruxImg from "../../assets/crux.jpg";
 
 const projects = [
   {
@@ -14,7 +17,7 @@ const projects = [
       "Integración de formularios, automatizaciones de correo y analítica básica para entender el comportamiento de los usuarios."
     ],
     stack: ["React", "Vite", "JavaScript", "HTML", "CSS"],
-    image: "/img/projects/pulso-studio.png",
+    image: pulsoImg,
     liveUrl: "https://pulso-studio.vercel.app/"
   },
   {
@@ -29,7 +32,7 @@ const projects = [
       "Ajustes de rendimiento y SEO on-page (metadatos, estructura semántica, buenas prácticas)."
     ],
     stack: ["React", "CSS", "EmailJS"],
-    image: "/img/projects/coneq.png",
+    image: coneqImg,
     liveUrl: "https://www.coneq.com.ar/"
   },
   {
@@ -52,7 +55,7 @@ const projects = [
       "React QR Code",
       "jsQR"
     ],
-    image: "/img/projects/crux-horarios.png",
+    image: cruxImg,
     liveUrl: "https://cruxescalada-admin.vercel.app/"
   }
 ];
@@ -98,9 +101,6 @@ const Projects = () => {
                 <li key={index}>{item}</li>
               ))}
             </ul>
-
-            <p className="project-stack">{project.stack}</p>
-
             <div className="project-actions">
               <a
                 href={project.liveUrl}
