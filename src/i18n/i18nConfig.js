@@ -17,6 +17,7 @@ i18n
           //Navbar
           "skills": "Skills",
           "contact":"Contact",
+          "projectsNav": "Projects",
           
           // About
           "about": "About",
@@ -95,23 +96,55 @@ i18n
 
           // Services
           "services": "Services",
-          "serviceTitle1": "Professional Landing Page",
-          "serviceDescription1": "Design and development of modern, responsive, and high-converting landing pages to boost your online presence.",
-          "serviceFeature1": "Responsive design",
+          // Service 1
+          "serviceTitle1": "Corporate Website / Landing Page",
+          "serviceDescription1": "Design and development of modern, responsive websites that reflect your brand identity and boost your online presence.",
+          "serviceFeature1": "Responsive design for mobile, tablet and desktop",
           "serviceFeature2": "SEO optimization",
-          "serviceFeature3": "Fast and scalable performance",
-
-          "serviceTitle2": "Business Data Dashboard",
-          "serviceDescription2": "Custom dashboards that allow your company to visualize, analyze, and manage data efficiently with interactive charts and reports.",
-          "serviceFeature4": "Advanced data visualization",
-          "serviceFeature5": "Integration with business databases",
-          "serviceFeature6": "Custom interactive components",
-
-          "serviceTitle3": "Multilingual Corporate Website",
-          "serviceDescription3": "Development of professional corporate websites with multilingual support, SEO best practices, and a modern design that reflects your brand identity.",
-          "serviceFeature7": "Multilanguage support",
-          "serviceFeature8": "SEO optimization",
-          "serviceFeature9": "Modern and professional design",
+          "serviceFeature3": "Form and map integration",
+          // Service 2
+          "serviceTitle2": "Dashboard / Admin Panel",
+          "serviceDescription2": "Custom dashboard development to visualize, analyze and manage your business data with interactive charts.",
+          "serviceFeature4": "Advanced data visualization (Highcharts, Recharts)",
+          "serviceFeature5": "Database integration (PostgreSQL, SQL Server)",
+          "serviceFeature6": "Roles, permissions and authentication",
+          // Service 3
+          "serviceTitle3": "REST API / Backend",
+          "serviceDescription3": "Development of robust and scalable APIs with Node.js, Express or NestJS, ready to integrate with any frontend or mobile app.",
+          "serviceFeature7": "Node.js, Express or NestJS",
+          "serviceFeature8": "JWT authentication and security",
+          "serviceFeature9": "Swagger documentation",
+          // Service 4
+          "serviceTitle4": "E-commerce",
+          "serviceDescription4": "Online store development with shopping cart, payment gateway and MercadoPago integration.",
+          "serviceFeature10": "Next.js with SSR for better SEO",
+          "serviceFeature11": "MercadoPago integration",
+          "serviceFeature12": "Product management admin panel",
+          // Service 5
+          "serviceTitle5": "Maintenance & Support",
+          "serviceDescription5": "Monthly maintenance service to keep your website or application updated, secure and running smoothly.",
+          "serviceFeature13": "Continuous updates and improvements",
+          "serviceFeature14": "Bug fixes and technical support",
+          "serviceFeature15": "Performance monitoring",
+          // Service 6
+          "serviceTitle6": "Scheduling & Attendance System",
+          "serviceDescription6": "Custom web application to manage shifts, schedules and staff attendance, with reports and role-based access control.",
+          "serviceFeature16": "Shift and schedule management",
+          "serviceFeature17": "Attendance tracking with reports",
+          "serviceFeature18": "Role-based access (admin, employee)",
+          // Services CTA and Coming Soon
+          "servicesCTA": "Request a quote",
+          "servicesComingSoonTitle": "Coming Soon",
+          "servicesComingSoonSubtitle": "Services I'm currently developing",
+          // Coming Soon services
+          "comingSoonTitle1": "AI Integration / Chatbots",
+          "comingSoonDescription1": "Integration of AI-powered features and chatbots into web applications using OpenAI API and LangChain.",
+          "comingSoonTitle2": "Automations & Scraping",
+          "comingSoonDescription2": "Business workflow automations using N8N, Make and Puppeteer to eliminate repetitive tasks and save time.",
+          "comingSoonTitle3": "Mobile App (React Native)",
+          "comingSoonDescription3": "Cross-platform mobile application development for iOS and Android using React Native.",
+          "comingSoonTitle4": "CI/CD & Basic DevOps",
+          "comingSoonDescription4": "CI/CD pipeline setup with GitHub Actions, Docker and cloud deployments on Vercel, Railway or AWS.",
           
           //FORM
           "form": {
@@ -149,6 +182,7 @@ i18n
           //Navbar
           "skills": "Habilidades",
           "contact":"Contacto",
+          "projectsNav": "Proyectos",
           
           // Experience
           "experience": "Experiencia",
@@ -216,23 +250,55 @@ i18n
 
           // Servicios
           "services": "Servicios",
-          "serviceTitle1": "Landing Page Profesional",
-          "serviceDescription1": "Diseño y desarrollo de landing pages modernas, responsivas y optimizadas para conversiones que potencian tu presencia online.",
-          "serviceFeature1": "Diseño responsivo",
+          // Servicio 1
+          "serviceTitle1": "Sitio Corporativo / Landing Page",
+          "serviceDescription1": "Diseño y desarrollo de sitios web modernos y responsivos que reflejan la identidad de tu marca y potencian tu presencia online.",
+          "serviceFeature1": "Diseño responsivo para mobile, tablet y desktop",
           "serviceFeature2": "Optimización SEO",
-          "serviceFeature3": "Rendimiento rápido y escalable",
-
-          "serviceTitle2": "Dashboard de Datos Empresariales",
-          "serviceDescription2": "Dashboards personalizados que permiten a tu empresa visualizar, analizar y gestionar datos de forma eficiente con reportes e indicadores interactivos.",
-          "serviceFeature4": "Visualización avanzada de datos",
-          "serviceFeature5": "Integración con bases de datos empresariales",
-          "serviceFeature6": "Componentes interactivos personalizados",
-
-          "serviceTitle3": "Sitio Corporativo Multilenguaje",
-          "serviceDescription3": "Desarrollo de sitios corporativos profesionales con soporte multilenguaje, buenas prácticas SEO y un diseño moderno que refleje la identidad de tu marca.",
-          "serviceFeature7": "Soporte multilenguaje",
-          "serviceFeature8": "Optimización SEO",
-          "serviceFeature9": "Diseño moderno y profesional",
+          "serviceFeature3": "Integración de formularios y mapas",
+          // Servicio 2
+          "serviceTitle2": "Dashboard / Panel de Administración",
+          "serviceDescription2": "Desarrollo de dashboards personalizados para visualizar, analizar y gestionar datos de tu negocio con gráficos interactivos.",
+          "serviceFeature4": "Visualización avanzada de datos (Highcharts, Recharts)",
+          "serviceFeature5": "Integración con bases de datos (PostgreSQL, SQL Server)",
+          "serviceFeature6": "Roles, permisos y autenticación",
+          // Servicio 3
+          "serviceTitle3": "API REST / Backend",
+          "serviceDescription3": "Desarrollo de APIs robustas y escalables con Node.js, Express o NestJS, listas para integrarse con cualquier frontend o app móvil.",
+          "serviceFeature7": "Node.js, Express o NestJS",
+          "serviceFeature8": "Autenticación JWT y seguridad",
+          "serviceFeature9": "Documentación con Swagger",
+          // Servicio 4
+          "serviceTitle4": "E-commerce",
+          "serviceDescription4": "Desarrollo de tiendas online con carrito de compras, pasarela de pagos e integración con MercadoPago.",
+          "serviceFeature10": "Next.js con SSR para mejor SEO",
+          "serviceFeature11": "Integración con MercadoPago",
+          "serviceFeature12": "Panel de administración de productos",
+          // Servicio 5
+          "serviceTitle5": "Mantenimiento y Soporte",
+          "serviceDescription5": "Servicio mensual de mantenimiento para mantener tu sitio o aplicación actualizada, segura y funcionando sin problemas.",
+          "serviceFeature13": "Actualizaciones y mejoras continuas",
+          "serviceFeature14": "Corrección de bugs y soporte técnico",
+          "serviceFeature15": "Monitoreo de performance",
+          // Servicio 6
+          "serviceTitle6": "Sistema de Horarios y Asistencias",
+          "serviceDescription6": "Aplicación web a medida para gestionar turnos, horarios y asistencia del personal, con reportes y control de acceso por roles.",
+          "serviceFeature16": "Gestión de turnos y horarios",
+          "serviceFeature17": "Control de asistencia con reportes",
+          "serviceFeature18": "Acceso por roles (admin, empleado)",
+          // CTA y Coming Soon
+          "servicesCTA": "Consultar precio",
+          "servicesComingSoonTitle": "Próximamente",
+          "servicesComingSoonSubtitle": "Servicios que estoy desarrollando",
+          // Coming Soon
+          "comingSoonTitle1": "Integración de IA / Chatbots",
+          "comingSoonDescription1": "Integración de funcionalidades con inteligencia artificial y chatbots en aplicaciones web usando OpenAI API y LangChain.",
+          "comingSoonTitle2": "Automatizaciones y Scraping",
+          "comingSoonDescription2": "Automatizaciones de procesos de negocio con N8N, Make y Puppeteer para eliminar tareas repetitivas y ahorrar tiempo.",
+          "comingSoonTitle3": "App Móvil (React Native)",
+          "comingSoonDescription3": "Desarrollo de aplicaciones móviles multiplataforma para iOS y Android con React Native.",
+          "comingSoonTitle4": "CI/CD y DevOps básico",
+          "comingSoonDescription4": "Configuración de pipelines CI/CD con GitHub Actions, Docker y despliegues en Vercel, Railway o AWS.",
 
           //FORM
           "form": {

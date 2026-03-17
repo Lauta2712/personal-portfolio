@@ -42,8 +42,10 @@ const Navbar = () => {
                             <ul>
                                 <li><button className="close-btn" onClick={toggleNav} aria-label="Cerrar menú">×</button></li>
                                 <li><a href="#about" onClick={toggleNav}><FaUser size={22} /> {t('about')}</a></li>
+                                <li><a href="#projects" onClick={toggleNav}><FaBriefcase size={22} /> {t('projectsNav')}</a></li>
                                 <li><a href="#experience" onClick={toggleNav}><FaBriefcase size={22} /> {t('experience')}</a></li>
-                                <li><a href="#services" onClick={toggleNav}><FaTools size={22} /> {t('skills')}</a></li>
+                                <li><a href="#services" onClick={toggleNav}><FaTools size={22} /> {t('services')}</a></li>
+                                <li><a href="#skills" onClick={toggleNav}><FaTools size={22} /> {t('skills')}</a></li>
                                 <li><a href="#contact" onClick={toggleNav}><FaEnvelope size={22} /> {t('contact')}</a></li>
                             </ul>
                             <div className="sidebar-controls">
@@ -74,8 +76,10 @@ const Navbar = () => {
                     <nav className="navbar">
                         <ul className="navbar-links">
                             <li><a href="#about" onClick={toggleNav}>{t('about')}</a></li>
+                            <li><a href="#projects" onClick={toggleNav}>{t('projectsNav')}</a></li>
                             <li><a href="#experience" onClick={toggleNav}>{t('experience')}</a></li>
-                            <li><a href="#services" onClick={toggleNav}>{t('skills')}</a></li>
+                            <li><a href="#services" onClick={toggleNav}>{t('services')}</a></li>
+                            <li><a href="#skills" onClick={toggleNav}>{t('skills')}</a></li>
                             <li><a href="#contact" onClick={toggleNav}>{t('contact')}</a></li>
                         </ul>
                         <div className="navbar-controls">

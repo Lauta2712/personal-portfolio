@@ -9,6 +9,7 @@ import Skills from "../../components/Skills/Skills";
 import LazyLoadComponent from "../../components/LazyLoadComponent/LazyLoadComponent";
 import Services from "../../components/Services/Services";
 import ContactForm from "../../components/ContactForm/ContactForm";
+import Projects from "../../components/Projects/Projects";
 
 const Home = () => {
     return (
@@ -17,6 +18,9 @@ const Home = () => {
             <HeroContent />
             <LazyLoadComponent>
                 <About />
+            </LazyLoadComponent>
+            <LazyLoadComponent>
+                <Projects />
             </LazyLoadComponent>
             <LazyLoadComponent>
                 <Experience />
