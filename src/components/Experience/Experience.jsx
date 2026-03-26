@@ -34,8 +34,8 @@ const Experience = () => {
           </ul>
           <p className="experience-tech">{t('pulsoTech')}</p>
           <div className="experience-link">
-            <a href="https://pulso-studio.vercel.app/" target="_blank" rel="noopener noreferrer">
-              https://pulso-studio.vercel.app/
+            <a href="https://www.pulsostudio.site/" target="_blank" rel="noopener noreferrer">
+              https://www.pulsostudio.site/
             </a>
           </div>
         </div>

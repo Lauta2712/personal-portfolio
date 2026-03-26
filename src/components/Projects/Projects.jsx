@@ -10,7 +10,7 @@ const projectMeta = [
     id: "pulso",
     stack: ["React", "Vite", "JavaScript", "HTML", "CSS"],
     image: pulsoImg,
-    liveUrl: "https://pulso-studio.vercel.app/"
+    liveUrl: "https://www.pulsostudio.site/"
   },
   {
     id: "coneq",
