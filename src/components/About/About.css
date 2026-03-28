@@ -7,7 +7,7 @@
   padding: var(--space-section-mobile) 16px;
   text-align: center;
   color: var(--text-primary);
-  background: #121212;
+  background: var(--bg-page);
   box-sizing: border-box;
 }
 
@@ -49,7 +49,8 @@
 .about-highlight-item {
   border-radius: var(--radius-md);
   border: 1px solid var(--card-border);
-  background: rgba(30, 30, 30, 0.9);
+  background: var(--card-bg);
+  box-shadow: var(--card-shadow);
   padding: 0.6rem 0.9rem;
   text-align: left;
 }
