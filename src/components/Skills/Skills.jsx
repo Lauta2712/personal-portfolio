@@ -28,6 +28,10 @@ const Skills = () => {
     // { icon: <SiCsharp />, name: "C#" },
     { icon: <FaPython />, name: "Python" },
     { icon: "Flask", name: "Flask" },
+    { icon: "BeautifulSoup", name: "BeautifulSoup" },
+    { icon: "Playwright", name: "Playwright" },
+    { icon: "Scrapy", name: "Scrapy" },
+    { icon: "Pandas", name: "Pandas" },
   ];
 
   return (

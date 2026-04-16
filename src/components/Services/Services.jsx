@@ -6,7 +6,8 @@ import {
   FaServer,
   FaShoppingCart,
   FaWrench,
-  FaCalendarAlt
+  FaCalendarAlt,
+  FaSearch
 } from "react-icons/fa";
 import { FaRobot, FaBolt, FaMobileAlt, FaCodeBranch } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
@@ -57,6 +58,12 @@ const Services = () => {
       description: t("serviceDescription6"),
       icon: <FaCalendarAlt className="service-icon" />,
       features: [t("serviceFeature16"), t("serviceFeature17"), t("serviceFeature18")]
+    },
+    {
+      title: t("serviceTitle7"),
+      description: t("serviceDescription7"),
+      icon: <FaSearch className="service-icon" />,
+      features: [t("serviceFeature19"), t("serviceFeature20"), t("serviceFeature21")]
     }
   ];
 
@@ -65,11 +72,6 @@ const Services = () => {
       icon: <FaRobot className="service-icon" />,
       title: t("comingSoonTitle1"),
       description: t("comingSoonDescription1")
-    },
-    {
-      icon: <FaBolt className="service-icon" />,
-      title: t("comingSoonTitle2"),
-      description: t("comingSoonDescription2")
     },
     {
       icon: <FaMobileAlt className="service-icon" />,

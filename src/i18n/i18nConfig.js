@@ -132,6 +132,12 @@ i18n
           "serviceFeature16": "Shift and schedule management",
           "serviceFeature17": "Attendance tracking with reports",
           "serviceFeature18": "Role-based access (admin, employee)",
+          // Service 7
+          "serviceTitle7": "Web Scraping & Automation",
+          "serviceDescription7": "I automate web data collection and repetitive tasks using Javascript and Python. Results delivered as Excel files, Google Sheets, or integrated directly into your app.",
+          "serviceFeature19": "Price monitoring, listings and public data",
+          "serviceFeature20": "Automatic reports in Excel / Google Sheets",
+          "serviceFeature21": "Scheduling and task automation",
           // Services CTA and Coming Soon
           "servicesCTA": "Request a quote",
           "servicesComingSoonTitle": "Coming Soon",
@@ -179,6 +185,16 @@ i18n
                 "Shift and capacity management by time slot directly from the browser.",
                 "Admin panel for user management and attendance tracking.",
                 "QR codes to speed up check-in and daily control by staff."
+              ]
+            },
+            "mpscaper": {
+              "title": "Mountain Project Scraper",
+              "role": "Personal Project · Node.js Developer",
+              "description": "Scraper that extracts climbing routes from Argentina listed on mountainproject.com, collecting name, location and French-scale difficulty grade. Results saved as JSON.",
+              "bullets": [
+                "Browser automation with Playwright to handle JS-rendered content.",
+                "Retry logic with exponential backoff and resource blocking to reduce load time.",
+                "Selector fallbacks per field to handle layout variations without breaking."
               ]
             }
           },
@@ -323,6 +339,12 @@ i18n
           "serviceFeature16": "Gestión de turnos y horarios",
           "serviceFeature17": "Control de asistencia con reportes",
           "serviceFeature18": "Acceso por roles (admin, empleado)",
+          // Servicio 7
+          "serviceTitle7": "Web Scraping & Automatización",
+          "serviceDescription7": "Automatizo la recolección de datos de la web y tareas repetitivas usando Javascript y Python. Entrego los resultados en Excel, Google Sheets o integrado directamente a tu app.",
+          "serviceFeature19": "Monitoreo de precios, publicaciones y datos públicos",
+          "serviceFeature20": "Reportes automáticos en Excel / Google Sheets",
+          "serviceFeature21": "Programación de tareas y automatización de flujos",
           // CTA y Coming Soon
           "servicesCTA": "Consultar precio",
           "servicesComingSoonTitle": "Próximamente",
@@ -370,6 +392,16 @@ i18n
                 "Gestión de turnos y cupos por franja horaria directamente desde el navegador.",
                 "Panel para administración de usuarios y registro de asistencias.",
                 "Uso de códigos QR para agilizar el ingreso y control diario por parte del staff."
+              ]
+            },
+            "mpscaper": {
+              "title": "Mountain Project Scraper",
+              "role": "Proyecto personal · Node.js Developer",
+              "description": "Scraper que extrae rutas de escalada de Argentina desde mountainproject.com, recolectando nombre, ubicación y grado de dificultad en escala francesa. Resultados guardados en JSON.",
+              "bullets": [
+                "Automatización de browser con Playwright para manejar contenido renderizado con JS.",
+                "Reintentos con backoff exponencial y bloqueo de recursos para reducir los tiempos de carga.",
+                "Selectores con fallbacks por campo para tolerar variaciones en el layout sin romperse."
               ]
             }
           },
