@@ -9,7 +9,7 @@ import {
   FaCalendarAlt,
   FaSearch
 } from "react-icons/fa";
-import { FaRobot, FaBolt, FaMobileAlt, FaCodeBranch } from "react-icons/fa";
+import { FaRobot, FaMobileAlt, FaCodeBranch } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
 
 const Services = () => {
